@@ -2,10 +2,15 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "C#: LanguageApp.Dotnet Debug",
+			"name": "debug: localhost",
 			"type": "dotnet",
 			"request": "launch",
-			"projectPath": "${workspaceFolder}/LanguageApp.Dotnet.csproj"
+			"projectPath": "${workspaceFolder}/LanguageApp.Dotnet.csproj",
+			// "serverReadyAction": {
+			// 	"action": "openExternally",
+			// 	"pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+			// 	"uriFormat": "%s/swagger"
+			// }
 		}
 	]
 }

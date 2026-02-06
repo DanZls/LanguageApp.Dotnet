@@ -1,6 +1,7 @@
 using OpenAI.Chat;
 
 class OpenAiService {
+
 	private readonly IConfiguration _configuration;
 
 
