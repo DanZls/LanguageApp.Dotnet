@@ -1,0 +1,38 @@
+Translate Russian words provided in WordsRu section of this request to Bulgarian.
+Represent the translations according to the instructions and example below.
+To help you with translating, a Russian-Bulgarian dictionary page is provided in DictionaryRuBg section.
+However, the translations in DictionaryRuBg may be incomplete, missing or redundant.
+Format each line as "word in Russian|meaning explanation in Russian|word translation in Bulgarian".
+Meaning explanation is usually found in DictionaryRuBg placed before translation in round brackets.
+Do not include in the meaning explanation the round brackets or bulgarian words.
+Place each translation on a single line.
+Don't add empty lines between translations.
+If there are several word meanings (homographs, usually marked as 1, 2, 3, I, II, III, etc.),
+	duplicate each of them on a new line as a separate translation.
+If there are several translations for a word meaning (synonyms, usually separated with "," or ";"), 
+	choose only one, the most relevant of them (usually the first in that list).
+Do not include sentence, phrase or idiom usage examples from DictionaryRuBg.
+Don't add extra words or symbols, your response is processed programmatically.
+
+
+Example. Assume the input looks like:
+
+WordsRu:
+1813 61.27 выбор noun
+1832 60.54 выбирать verb
+4908 20.26 выбежать verb
+
+DictionaryRuBg:
+выбежать сов. изтичам, изскоча, изляза тичешком.
+выбирать несов. 1. (голосованием) избирам; 2. (отбирать) подбирам, отбирам; 3. (вынимать, извлекать) извличам, изтеглям (котва, мрежа); 4. (находить) намирам, улучвам (време, момент).
+выбор м. 1. (действие) избиране; выбор профессии избиране на професия; 2. избор; все одобрили мой выбор всички одобриха моя избор; на выбор по избор; 3. (ассортимент) избор, асортимент; большой выбор вин голям избор на вина.
+
+Then format your output as:
+выбор|действие|избиране
+выбор||избор
+выбор|ассортимент|избор
+выбирать|голосованием|избирам
+выбирать|отбирать|подбирам
+выбирать|вынимать, извлекать|извличам
+выбирать|находить|намирам
+выбежать||изтичам

@@ -1,0 +1,862 @@
+[2026.02.10 18:16] OpenAi Request | Tokens: input 2970, output 1729, total 4699
+[2026.02.10 18:18] OpenAi Request | Tokens: input 2912, output 1734, total 4646
+[2026.02.10 18:19] OpenAi Request | Tokens: input 2814, output 1673, total 4487
+[2026.02.10 18:21] OpenAi Request | Tokens: input 2618, output 1498, total 4116
+[2026.02.10 18:22] OpenAi Request | Tokens: input 2563, output 1468, total 4031
+[2026.02.10 18:24] OpenAi Request | Tokens: input 2693, output 1604, total 4297
+[2026.02.10 18:26] OpenAi Request | Tokens: input 2797, output 1656, total 4453
+[2026.02.10 18:28] OpenAi Request | Tokens: input 2929, output 1827, total 4756
+[2026.02.10 18:30] OpenAi Request | Tokens: input 2947, output 1852, total 4799
+[2026.02.10 18:31] OpenAi Request | Tokens: input 2884, output 1746, total 4630
+[2026.02.10 18:34] OpenAi Request | Tokens: input 2771, output 1677, total 4448
+[2026.02.10 18:35] OpenAi Request | Tokens: input 2791, output 1445, total 4236
+[2026.02.10 18:37] OpenAi Request | Tokens: input 2873, output 1778, total 4651
+[2026.02.10 18:39] OpenAi Request | Tokens: input 2836, output 1727, total 4563
+[2026.02.10 18:40] OpenAi Request | Tokens: input 2665, output 1548, total 4213
+[2026.02.10 18:42] OpenAi Request | Tokens: input 2729, output 1651, total 4380
+[2026.02.10 18:44] OpenAi Request | Tokens: input 2817, output 1716, total 4533
+[2026.02.10 18:46] OpenAi Request | Tokens: input 2762, output 1708, total 4470
+[2026.02.10 18:47] OpenAi Request | Tokens: input 2881, output 1728, total 4609
+[2026.02.10 18:50] OpenAi Request | Tokens: input 2975, output 1818, total 4793
+[2026.02.10 18:51] OpenAi Request | Tokens: input 2730, output 1589, total 4319
+[2026.02.10 18:54] OpenAi Request | Tokens: input 2878, output 1767, total 4645
+[2026.02.10 18:55] OpenAi Request | Tokens: input 2714, output 1677, total 4391
+[2026.02.10 18:57] OpenAi Request | Tokens: input 2684, output 1614, total 4298
+[2026.02.10 18:58] OpenAi Request | Tokens: input 2653, output 1579, total 4232
+[2026.02.10 19:00] OpenAi Request | Tokens: input 2670, output 1528, total 4198
+[2026.02.10 19:02] OpenAi Request | Tokens: input 2715, output 1605, total 4320
+[2026.02.10 19:03] OpenAi Request | Tokens: input 2744, output 1327, total 4071
+[2026.02.10 19:05] OpenAi Request | Tokens: input 2701, output 1574, total 4275
+[2026.02.10 19:07] OpenAi Request | Tokens: input 2609, output 1516, total 4125
+[2026.02.10 19:08] OpenAi Request | Tokens: input 2661, output 1558, total 4219
+[2026.02.10 19:10] OpenAi Request | Tokens: input 2721, output 1616, total 4337
+[2026.02.10 19:11] OpenAi Request | Tokens: input 2826, output 1691, total 4517
+[2026.02.10 19:13] OpenAi Request | Tokens: input 2760, output 1579, total 4339
+[2026.02.10 19:15] OpenAi Request | Tokens: input 2756, output 1625, total 4381
+[2026.02.10 19:17] OpenAi Request | Tokens: input 2956, output 1786, total 4742
+[2026.02.10 19:18] OpenAi Request | Tokens: input 2883, output 1257, total 4140
+[2026.02.10 19:20] OpenAi Request | Tokens: input 2694, output 1597, total 4291
+[2026.02.10 19:21] OpenAi Request | Tokens: input 2743, output 1657, total 4400
+[2026.02.10 19:23] OpenAi Request | Tokens: input 2845, output 1632, total 4477
+[2026.02.10 19:24] OpenAi Request | Tokens: input 2839, output 1664, total 4503
+[2026.02.10 19:27] OpenAi Request | Tokens: input 2758, output 1635, total 4393
+[2026.02.10 19:28] OpenAi Request | Tokens: input 2844, output 1764, total 4608
+[2026.02.10 19:30] OpenAi Request | Tokens: input 2826, output 1718, total 4544
+[2026.02.10 19:32] OpenAi Request | Tokens: input 2895, output 1759, total 4654
+[2026.02.10 19:34] OpenAi Request | Tokens: input 2954, output 1344, total 4298
+[2026.02.10 19:35] OpenAi Request | Tokens: input 2826, output 1681, total 4507
+[2026.02.10 19:37] OpenAi Request | Tokens: input 2719, output 1553, total 4272
+[2026.02.10 19:38] OpenAi Request | Tokens: input 2757, output 1629, total 4386
+[2026.02.10 19:40] OpenAi Request | Tokens: input 2890, output 1728, total 4618
+[2026.02.10 19:41] OpenAi Request | Tokens: input 2836, output 1418, total 4254
+[2026.02.10 19:43] OpenAi Request | Tokens: input 2822, output 1691, total 4513
+[2026.02.10 19:44] OpenAi Request | Tokens: input 2830, output 1709, total 4539
+[2026.02.10 19:46] OpenAi Request | Tokens: input 2749, output 1617, total 4366
+[2026.02.10 19:48] OpenAi Request | Tokens: input 2892, output 1662, total 4554
+[2026.02.10 19:49] OpenAi Request | Tokens: input 2902, output 1710, total 4612
+[2026.02.10 19:51] OpenAi Request | Tokens: input 3001, output 1872, total 4873
+[2026.02.10 19:52] OpenAi Request | Tokens: input 2997, output 1820, total 4817
+[2026.02.10 19:54] OpenAi Request | Tokens: input 3062, output 1964, total 5026
+[2026.02.10 19:55] OpenAi Request | Tokens: input 2982, output 1843, total 4825
+[2026.02.10 19:57] OpenAi Request | Tokens: input 3011, output 1837, total 4848
+[2026.02.10 19:59] OpenAi Request | Tokens: input 2977, output 1900, total 4877
+[2026.02.10 20:01] OpenAi Request | Tokens: input 3009, output 1874, total 4883
+[2026.02.10 20:02] OpenAi Request | Tokens: input 2901, output 1777, total 4678
+[2026.02.10 20:04] OpenAi Request | Tokens: input 2975, output 1819, total 4794
+[2026.02.10 20:06] OpenAi Request | Tokens: input 2940, output 1857, total 4797
+[2026.02.10 20:07] OpenAi Request | Tokens: input 3045, output 1957, total 5002
+[2026.02.10 20:09] OpenAi Request | Tokens: input 2805, output 1689, total 4494
+[2026.02.10 20:10] OpenAi Request | Tokens: input 2986, output 1910, total 4896
+[2026.02.10 20:12] OpenAi Request | Tokens: input 2966, output 1833, total 4799
+[2026.02.10 20:14] OpenAi Request | Tokens: input 2738, output 1640, total 4378
+[2026.02.10 20:15] OpenAi Request | Tokens: input 2917, output 1793, total 4710
+[2026.02.10 20:17] OpenAi Request | Tokens: input 3043, output 1943, total 4986
+[2026.02.10 20:18] OpenAi Request | Tokens: input 3031, output 1833, total 4864
+[2026.02.10 20:20] OpenAi Request | Tokens: input 3109, output 1923, total 5032
+[2026.02.10 20:21] OpenAi Request | Tokens: input 2863, output 1738, total 4601
+[2026.02.10 20:23] OpenAi Request | Tokens: input 2839, output 1762, total 4601
+[2026.02.10 20:24] OpenAi Request | Tokens: input 2818, output 1729, total 4547
+[2026.02.10 20:26] OpenAi Request | Tokens: input 2903, output 1808, total 4711
+[2026.02.10 20:27] OpenAi Request | Tokens: input 2805, output 1687, total 4492
+[2026.02.10 20:29] OpenAi Request | Tokens: input 2880, output 1765, total 4645
+[2026.02.10 20:30] OpenAi Request | Tokens: input 2876, output 1786, total 4662
+[2026.02.10 20:32] OpenAi Request | Tokens: input 2923, output 1795, total 4718
+[2026.02.10 20:33] OpenAi Request | Tokens: input 2761, output 1589, total 4350
+[2026.02.10 20:35] OpenAi Request | Tokens: input 2823, output 1746, total 4569
+[2026.02.10 20:36] OpenAi Request | Tokens: input 2833, output 1730, total 4563
+[2026.02.10 20:38] OpenAi Request | Tokens: input 2823, output 1731, total 4554
+[2026.02.10 20:39] OpenAi Request | Tokens: input 2813, output 1707, total 4520
+[2026.02.10 20:41] OpenAi Request | Tokens: input 2787, output 1430, total 4217
+[2026.02.10 20:42] OpenAi Request | Tokens: input 2945, output 1882, total 4827
+[2026.02.10 20:44] OpenAi Request | Tokens: input 2903, output 1770, total 4673
+[2026.02.10 20:45] OpenAi Request | Tokens: input 3008, output 1778, total 4786
+[2026.02.10 20:47] OpenAi Request | Tokens: input 2985, output 1605, total 4590
+[2026.02.10 20:48] OpenAi Request | Tokens: input 2901, output 1478, total 4379
+[2026.02.10 20:50] OpenAi Request | Tokens: input 2882, output 1779, total 4661
+[2026.02.10 20:52] OpenAi Request | Tokens: input 2870, output 1702, total 4572
+[2026.02.10 20:54] OpenAi Request | Tokens: input 2827, output 1674, total 4501
+[2026.02.10 20:55] OpenAi Request | Tokens: input 2817, output 1635, total 4452
+[2026.02.10 20:57] OpenAi Request | Tokens: input 2729, output 1572, total 4301
+[2026.02.10 20:58] OpenAi Request | Tokens: input 2823, output 1695, total 4518
+[2026.02.10 21:23] OpenAi Request | gpt-4.1-mini | input 2808, output 1786, total 4594
+[2026.02.10 21:31] OpenAi Request | gpt-4.1-mini | input 2831, output 1770, total 4601
+[2026.02.10 21:34] OpenAi Request | gpt-4.1-mini | input 2831, output 1720, total 4551
+[2026.02.10 21:36] OpenAi Request | gpt-4.1-mini | input 2831, output 1757, total 4588
+[2026.02.10 21:43] OpenAi Request | gpt-4.1-nano | input 2831, output 1542, total 4373
+[2026.02.11 14:07] OpenAi Request | gpt-4.1 | input 2831, output 1667, total 4498
+[2026.02.11 14:08] OpenAi Request | gpt-4.1 | input 2922, output 1820, total 4742
+[2026.02.11 14:09] OpenAi Request | gpt-4.1 | input 2748, output 1574, total 4322
+[2026.02.11 14:10] OpenAi Request | gpt-4.1 | input 2877, output 1789, total 4666
+[2026.02.11 14:11] OpenAi Request | gpt-4.1 | input 2941, output 1800, total 4741
+[2026.02.11 14:12] OpenAi Request | gpt-4.1 | input 2803, output 1682, total 4485
+[2026.02.11 14:13] OpenAi Request | gpt-4.1 | input 2763, output 1639, total 4402
+[2026.02.11 14:13] OpenAi Request | gpt-4.1 | input 2750, output 1627, total 4377
+[2026.02.11 14:14] OpenAi Request | gpt-4.1 | input 2892, output 1758, total 4650
+[2026.02.11 14:15] OpenAi Request | gpt-4.1 | input 2762, output 1629, total 4391
+[2026.02.11 14:16] OpenAi Request | gpt-4.1 | input 2680, output 1520, total 4200
+[2026.02.11 14:17] OpenAi Request | gpt-4.1 | input 2549, output 1332, total 3881
+[2026.02.11 14:18] OpenAi Request | gpt-4.1 | input 2573, output 1460, total 4033
+[2026.02.11 14:19] OpenAi Request | gpt-4.1 | input 2500, output 1362, total 3862
+[2026.02.11 14:20] OpenAi Request | gpt-4.1 | input 2681, output 1652, total 4333
+[2026.02.11 14:21] OpenAi Request | gpt-4.1 | input 2767, output 1611, total 4378
+[2026.02.11 14:22] OpenAi Request | gpt-4.1 | input 2884, output 1758, total 4642
+[2026.02.11 14:23] OpenAi Request | gpt-4.1 | input 2795, output 1635, total 4430
+[2026.02.11 14:24] OpenAi Request | gpt-4.1 | input 2859, output 1692, total 4551
+[2026.02.11 14:25] OpenAi Request | gpt-4.1 | input 2834, output 1668, total 4502
+[2026.02.11 14:25] OpenAi Request | gpt-4.1 | input 2742, output 1636, total 4378
+[2026.02.11 14:26] OpenAi Request | gpt-4.1 | input 2692, output 1597, total 4289
+[2026.02.11 14:27] OpenAi Request | gpt-4.1 | input 2796, output 1624, total 4420
+[2026.02.11 14:28] OpenAi Request | gpt-4.1 | input 2745, output 1699, total 4444
+[2026.02.11 14:29] OpenAi Request | gpt-4.1 | input 2713, output 1598, total 4311
+[2026.02.11 14:29] OpenAi Request | gpt-4.1 | input 2650, output 1397, total 4047
+[2026.02.11 14:30] OpenAi Request | gpt-4.1 | input 2765, output 1621, total 4386
+[2026.02.11 14:31] OpenAi Request | gpt-4.1 | input 2791, output 1622, total 4413
+[2026.02.11 14:32] OpenAi Request | gpt-4.1 | input 2742, output 1605, total 4347
+[2026.02.11 14:33] OpenAi Request | gpt-4.1 | input 2716, output 1577, total 4293
+[2026.02.11 14:34] OpenAi Request | gpt-4.1 | input 2685, output 1599, total 4284
+[2026.02.11 14:35] OpenAi Request | gpt-4.1 | input 2955, output 1754, total 4709
+[2026.02.11 14:36] OpenAi Request | gpt-4.1 | input 2870, output 1721, total 4591
+[2026.02.11 14:36] OpenAi Request | gpt-4.1 | input 2920, output 1785, total 4705
+[2026.02.11 14:37] OpenAi Request | gpt-4.1 | input 2791, output 1680, total 4471
+[2026.02.11 14:38] OpenAi Request | gpt-4.1 | input 2801, output 1616, total 4417
+[2026.02.11 14:39] OpenAi Request | gpt-4.1 | input 2831, output 1730, total 4561
+[2026.02.11 14:40] OpenAi Request | gpt-4.1 | input 2801, output 1662, total 4463
+[2026.02.11 14:41] OpenAi Request | gpt-4.1 | input 2982, output 1858, total 4840
+[2026.02.11 14:42] OpenAi Request | gpt-4.1 | input 2628, output 1510, total 4138
+[2026.02.11 14:43] OpenAi Request | gpt-4.1 | input 2490, output 1397, total 3887
+[2026.02.11 14:44] OpenAi Request | gpt-4.1 | input 2683, output 1538, total 4221
+[2026.02.11 14:44] OpenAi Request | gpt-4.1 | input 2419, output 1324, total 3743
+[2026.02.11 14:45] OpenAi Request | gpt-4.1 | input 2703, output 1564, total 4267
+[2026.02.11 14:46] OpenAi Request | gpt-4.1 | input 2780, output 1595, total 4375
+[2026.02.11 14:47] OpenAi Request | gpt-4.1 | input 2840, output 1342, total 4182
+[2026.02.11 14:48] OpenAi Request | gpt-4.1 | input 2782, output 1675, total 4457
+[2026.02.11 14:49] OpenAi Request | gpt-4.1 | input 3009, output 1732, total 4741
+[2026.02.11 14:50] OpenAi Request | gpt-4.1 | input 2798, output 1693, total 4491
+[2026.02.11 14:51] OpenAi Request | gpt-4.1 | input 2852, output 1716, total 4568
+[2026.02.11 14:52] OpenAi Request | gpt-4.1 | input 2778, output 1639, total 4417
+[2026.02.11 14:53] OpenAi Request | gpt-4.1 | input 2861, output 1758, total 4619
+[2026.02.11 14:54] OpenAi Request | gpt-4.1 | input 2786, output 1656, total 4442
+[2026.02.11 14:55] OpenAi Request | gpt-4.1 | input 2970, output 1839, total 4809
+[2026.02.11 14:56] OpenAi Request | gpt-4.1 | input 2968, output 1583, total 4551
+[2026.02.11 14:57] OpenAi Request | gpt-4.1 | input 2942, output 1816, total 4758
+[2026.02.11 14:58] OpenAi Request | gpt-4.1 | input 2798, output 1694, total 4492
+[2026.02.11 14:59] OpenAi Request | gpt-4.1 | input 2736, output 1635, total 4371
+[2026.02.11 15:00] OpenAi Request | gpt-4.1 | input 2703, output 1617, total 4320
+[2026.02.11 15:01] OpenAi Request | gpt-4.1 | input 2814, output 1699, total 4513
+[2026.02.11 15:02] OpenAi Request | gpt-4.1 | input 2833, output 1759, total 4592
+[2026.02.11 15:03] OpenAi Request | gpt-4.1 | input 2806, output 1671, total 4477
+[2026.02.11 15:05] OpenAi Request | gpt-4.1 | input 2811, output 1721, total 4532
+[2026.02.11 15:06] OpenAi Request | gpt-4.1 | input 2789, output 1528, total 4317
+[2026.02.11 15:07] OpenAi Request | gpt-4.1 | input 2689, output 1566, total 4255
+[2026.02.11 15:08] OpenAi Request | gpt-4.1 | input 2703, output 1578, total 4281
+[2026.02.11 15:09] OpenAi Request | gpt-4.1 | input 2758, output 1583, total 4341
+[2026.02.11 15:10] OpenAi Request | gpt-4.1 | input 2818, output 1655, total 4473
+[2026.02.11 15:11] OpenAi Request | gpt-4.1 | input 2869, output 1734, total 4603
+[2026.02.11 15:12] OpenAi Request | gpt-4.1 | input 2905, output 1729, total 4634
+[2026.02.11 15:13] OpenAi Request | gpt-4.1 | input 2801, output 1642, total 4443
+[2026.02.11 15:14] OpenAi Request | gpt-4.1 | input 2727, output 1609, total 4336
+[2026.02.11 15:15] OpenAi Request | gpt-4.1 | input 2689, output 1595, total 4284
+[2026.02.11 15:16] OpenAi Request | gpt-4.1 | input 2553, output 1184, total 3737
+[2026.02.11 15:17] OpenAi Request | gpt-4.1 | input 2690, output 1575, total 4265
+[2026.02.11 15:18] OpenAi Request | gpt-4.1 | input 2644, output 1520, total 4164
+[2026.02.11 15:19] OpenAi Request | gpt-4.1 | input 2700, output 1560, total 4260
+[2026.02.11 15:20] OpenAi Request | gpt-4.1 | input 2673, output 1514, total 4187
+[2026.02.11 15:21] OpenAi Request | gpt-4.1 | input 2705, output 1565, total 4270
+[2026.02.11 15:21] OpenAi Request | gpt-4.1 | input 2784, output 1631, total 4415
+[2026.02.11 15:22] OpenAi Request | gpt-4.1 | input 2951, output 1715, total 4666
+[2026.02.11 15:24] OpenAi Request | gpt-4.1 | input 2879, output 1667, total 4546
+[2026.02.11 15:24] OpenAi Request | gpt-4.1 | input 2624, output 1502, total 4126
+[2026.02.11 15:25] OpenAi Request | gpt-4.1 | input 2763, output 1608, total 4371
+[2026.02.11 15:26] OpenAi Request | gpt-4.1 | input 2734, output 1577, total 4311
+[2026.02.11 15:27] OpenAi Request | gpt-4.1 | input 2859, output 1600, total 4459
+[2026.02.11 15:28] OpenAi Request | gpt-4.1 | input 2785, output 1658, total 4443
+[2026.02.11 15:29] OpenAi Request | gpt-4.1 | input 2551, output 1271, total 3822
+[2026.02.11 15:30] OpenAi Request | gpt-4.1 | input 2839, output 1693, total 4532
+[2026.02.11 15:31] OpenAi Request | gpt-4.1 | input 2912, output 1810, total 4722
+[2026.02.11 15:32] OpenAi Request | gpt-4.1 | input 2558, output 1463, total 4021
+[2026.02.11 15:33] OpenAi Request | gpt-4.1 | input 2732, output 1557, total 4289
+[2026.02.11 15:33] OpenAi Request | gpt-4.1 | input 2795, output 1649, total 4444
+[2026.02.11 15:34] OpenAi Request | gpt-4.1 | input 2772, output 1666, total 4438
+[2026.02.11 15:35] OpenAi Request | gpt-4.1 | input 2863, output 1707, total 4570
+[2026.02.11 15:36] OpenAi Request | gpt-4.1 | input 2875, output 1321, total 4196
+[2026.02.11 15:37] OpenAi Request | gpt-4.1 | input 2950, output 1741, total 4691
+[2026.02.11 15:38] OpenAi Request | gpt-4.1 | input 2820, output 1215, total 4035
+[2026.02.11 15:39] OpenAi Request | gpt-4.1 | input 2953, output 1868, total 4821
+[2026.02.11 15:40] OpenAi Request | gpt-4.1 | input 2811, output 1690, total 4501
+[2026.02.11 15:41] OpenAi Request | gpt-4.1 | input 2843, output 1729, total 4572
+[2026.02.11 15:42] OpenAi Request | gpt-4.1 | input 2756, output 1407, total 4163
+[2026.02.11 15:44] OpenAi Request | gpt-4.1 | input 2815, output 1690, total 4505
+[2026.02.11 15:44] OpenAi Request | gpt-4.1 | input 2758, output 1611, total 4369
+[2026.02.11 15:46] OpenAi Request | gpt-4.1 | input 2820, output 1688, total 4508
+[2026.02.11 15:47] OpenAi Request | gpt-4.1 | input 2821, output 1666, total 4487
+[2026.02.11 15:47] OpenAi Request | gpt-4.1 | input 2891, output 1785, total 4676
+[2026.02.11 15:48] OpenAi Request | gpt-4.1 | input 2755, output 1643, total 4398
+[2026.02.11 15:49] OpenAi Request | gpt-4.1 | input 2887, output 1757, total 4644
+[2026.02.11 15:50] OpenAi Request | gpt-4.1 | input 2849, output 1728, total 4577
+[2026.02.11 15:51] OpenAi Request | gpt-4.1 | input 2837, output 1670, total 4507
+[2026.02.11 15:52] OpenAi Request | gpt-4.1 | input 2785, output 1403, total 4188
+[2026.02.11 15:53] OpenAi Request | gpt-4.1 | input 2868, output 1741, total 4609
+[2026.02.11 15:54] OpenAi Request | gpt-4.1 | input 2834, output 1717, total 4551
+[2026.02.11 15:55] OpenAi Request | gpt-4.1 | input 2865, output 1764, total 4629
+[2026.02.11 15:56] OpenAi Request | gpt-4.1 | input 2822, output 1693, total 4515
+[2026.02.11 15:57] OpenAi Request | gpt-4.1 | input 2816, output 1718, total 4534
+[2026.02.11 15:58] OpenAi Request | gpt-4.1 | input 2751, output 1614, total 4365
+[2026.02.11 15:59] OpenAi Request | gpt-4.1 | input 2734, output 1590, total 4324
+[2026.02.11 16:00] OpenAi Request | gpt-4.1 | input 2728, output 1671, total 4399
+[2026.02.11 16:01] OpenAi Request | gpt-4.1 | input 2746, output 1514, total 4260
+[2026.02.11 16:03] OpenAi Request | gpt-4.1 | input 2636, output 1511, total 4147
+[2026.02.11 16:04] OpenAi Request | gpt-4.1 | input 2752, output 1598, total 4350
+[2026.02.11 16:05] OpenAi Request | gpt-4.1 | input 2761, output 1613, total 4374
+[2026.02.11 16:06] OpenAi Request | gpt-4.1 | input 2802, output 1679, total 4481
+[2026.02.11 16:07] OpenAi Request | gpt-4.1 | input 2603, output 1325, total 3928
+[2026.02.11 16:08] OpenAi Request | gpt-4.1 | input 2768, output 1678, total 4446
+[2026.02.11 16:09] OpenAi Request | gpt-4.1 | input 2769, output 1680, total 4449
+[2026.02.11 16:10] OpenAi Request | gpt-4.1 | input 2754, output 1621, total 4375
+[2026.02.11 16:11] OpenAi Request | gpt-4.1 | input 2711, output 1559, total 4270
+[2026.02.11 16:12] OpenAi Request | gpt-4.1 | input 2687, output 1549, total 4236
+[2026.02.11 16:13] OpenAi Request | gpt-4.1 | input 2761, output 1631, total 4392
+[2026.02.11 16:14] OpenAi Request | gpt-4.1 | input 2558, output 1445, total 4003
+[2026.02.11 16:15] OpenAi Request | gpt-4.1 | input 2644, output 1498, total 4142
+[2026.02.11 16:16] OpenAi Request | gpt-4.1 | input 2604, output 1433, total 4037
+[2026.02.11 16:17] OpenAi Request | gpt-4.1 | input 2603, output 1237, total 3840
+[2026.02.11 16:18] OpenAi Request | gpt-4.1 | input 2755, output 1579, total 4334
+[2026.02.11 16:19] OpenAi Request | gpt-4.1 | input 2725, output 1619, total 4344
+[2026.02.11 16:20] OpenAi Request | gpt-4.1 | input 2814, output 1627, total 4441
+[2026.02.11 16:21] OpenAi Request | gpt-4.1 | input 2717, output 1618, total 4335
+[2026.02.11 16:22] OpenAi Request | gpt-4.1 | input 2719, output 1227, total 3946
+[2026.02.11 16:23] OpenAi Request | gpt-4.1 | input 2863, output 1583, total 4446
+[2026.02.11 16:23] OpenAi Request | gpt-4.1 | input 2802, output 1634, total 4436
+[2026.02.11 16:24] OpenAi Request | gpt-4.1 | input 2767, output 1591, total 4358
+[2026.02.11 16:25] OpenAi Request | gpt-4.1 | input 2867, output 1676, total 4543
+[2026.02.11 16:26] OpenAi Request | gpt-4.1 | input 2853, output 1255, total 4108
+[2026.02.11 16:27] OpenAi Request | gpt-4.1 | input 2899, output 1745, total 4644
+[2026.02.11 16:29] OpenAi Request | gpt-4.1 | input 2837, output 1713, total 4550
+[2026.02.11 16:30] OpenAi Request | gpt-4.1 | input 2902, output 1756, total 4658
+[2026.02.11 16:31] OpenAi Request | gpt-4.1 | input 2646, output 1557, total 4203
+[2026.02.11 16:32] OpenAi Request | gpt-4.1 | input 2818, output 1696, total 4514
+[2026.02.11 16:33] OpenAi Request | gpt-4.1 | input 2815, output 1629, total 4444
+[2026.02.11 16:34] OpenAi Request | gpt-4.1 | input 2959, output 1862, total 4821
+[2026.02.11 16:35] OpenAi Request | gpt-4.1 | input 2749, output 1617, total 4366
+[2026.02.11 16:36] OpenAi Request | gpt-4.1 | input 2889, output 1759, total 4648
+[2026.02.11 16:37] OpenAi Request | gpt-4.1 | input 2837, output 1070, total 3907
+[2026.02.11 16:39] OpenAi Request | gpt-4.1 | input 2940, output 1796, total 4736
+[2026.02.11 16:41] OpenAi Request | gpt-4.1 | input 2653, output 1475, total 4128
+[2026.02.11 16:42] OpenAi Request | gpt-4.1 | input 2938, output 1833, total 4771
+[2026.02.11 16:42] OpenAi Request | gpt-4.1 | input 2841, output 1346, total 4187
+[2026.02.11 16:43] OpenAi Request | gpt-4.1 | input 2774, output 1656, total 4430
+[2026.02.11 16:45] OpenAi Request | gpt-4.1 | input 2828, output 1664, total 4492
+[2026.02.11 16:46] OpenAi Request | gpt-4.1 | input 2802, output 1642, total 4444
+[2026.02.11 16:48] OpenAi Request | gpt-4.1 | input 2767, output 1568, total 4335
+[2026.02.11 16:49] OpenAi Request | gpt-4.1 | input 2803, output 1696, total 4499
+[2026.02.11 16:50] OpenAi Request | gpt-4.1 | input 2762, output 1644, total 4406
+[2026.02.11 16:51] OpenAi Request | gpt-4.1 | input 2681, output 1559, total 4240
+[2026.02.11 16:52] OpenAi Request | gpt-4.1 | input 2760, output 1687, total 4447
+[2026.02.11 16:53] OpenAi Request | gpt-4.1 | input 2725, output 1375, total 4100
+[2026.02.11 16:54] OpenAi Request | gpt-4.1 | input 2694, output 1652, total 4346
+[2026.02.11 16:55] OpenAi Request | gpt-4.1 | input 2784, output 1676, total 4460
+[2026.02.11 16:56] OpenAi Request | gpt-4.1 | input 2835, output 1753, total 4588
+[2026.02.11 16:56] OpenAi Request | gpt-4.1 | input 2681, output 1553, total 4234
+[2026.02.11 16:57] OpenAi Request | gpt-4.1 | input 2665, output 1285, total 3950
+[2026.02.11 16:58] OpenAi Request | gpt-4.1 | input 2774, output 1629, total 4403
+[2026.02.11 17:00] OpenAi Request | gpt-4.1 | input 2775, output 1608, total 4383
+[2026.02.11 17:01] OpenAi Request | gpt-4.1 | input 2657, output 1549, total 4206
+[2026.02.11 17:02] OpenAi Request | gpt-4.1 | input 2676, output 1590, total 4266
+[2026.02.11 17:03] OpenAi Request | gpt-4.1 | input 2861, output 1781, total 4642
+[2026.02.11 17:04] OpenAi Request | gpt-4.1 | input 2827, output 1690, total 4517
+[2026.02.11 17:06] OpenAi Request | gpt-4.1 | input 2806, output 1624, total 4430
+[2026.02.11 17:07] OpenAi Request | gpt-4.1 | input 2774, output 1647, total 4421
+[2026.02.11 17:08] OpenAi Request | gpt-4.1 | input 2996, output 1845, total 4841
+[2026.02.11 17:09] OpenAi Request | gpt-4.1 | input 3089, output 1963, total 5052
+[2026.02.11 17:10] OpenAi Request | gpt-4.1 | input 2975, output 1770, total 4745
+[2026.02.11 17:11] OpenAi Request | gpt-4.1 | input 2902, output 1762, total 4664
+[2026.02.11 17:12] OpenAi Request | gpt-4.1 | input 2838, output 1560, total 4398
+[2026.02.11 17:13] OpenAi Request | gpt-4.1 | input 2912, output 1742, total 4654
+[2026.02.11 17:14] OpenAi Request | gpt-4.1 | input 3025, output 1820, total 4845
+[2026.02.11 17:15] OpenAi Request | gpt-4.1 | input 2980, output 1789, total 4769
+[2026.02.11 17:16] OpenAi Request | gpt-4.1 | input 2934, output 1667, total 4601
+[2026.02.11 17:17] OpenAi Request | gpt-4.1 | input 2944, output 1855, total 4799
+[2026.02.11 17:18] OpenAi Request | gpt-4.1 | input 2802, output 1670, total 4472
+[2026.02.11 17:19] OpenAi Request | gpt-4.1 | input 2924, output 1750, total 4674
+[2026.02.11 17:20] OpenAi Request | gpt-4.1 | input 2735, output 1609, total 4344
+[2026.02.11 17:21] OpenAi Request | gpt-4.1 | input 2885, output 1746, total 4631
+[2026.02.11 17:22] OpenAi Request | gpt-4.1 | input 2775, output 1666, total 4441
+[2026.02.11 17:23] OpenAi Request | gpt-4.1 | input 2965, output 1844, total 4809
+[2026.02.11 17:24] OpenAi Request | gpt-4.1 | input 2964, output 1786, total 4750
+[2026.02.11 17:25] OpenAi Request | gpt-4.1 | input 2844, output 1717, total 4561
+[2026.02.12 13:56] OpenAi Request | gpt-4.1 | input 2753, output 1652, total 4405
+[2026.02.12 13:57] OpenAi Request | gpt-4.1 | input 2749, output 1622, total 4371
+[2026.02.12 13:58] OpenAi Request | gpt-4.1 | input 2760, output 1329, total 4089
+[2026.02.12 13:59] OpenAi Request | gpt-4.1 | input 2823, output 1709, total 4532
+[2026.02.12 14:00] OpenAi Request | gpt-4.1 | input 2847, output 1707, total 4554
+[2026.02.12 14:01] OpenAi Request | gpt-4.1 | input 2736, output 1594, total 4330
+[2026.02.12 14:02] OpenAi Request | gpt-4.1 | input 2713, output 1640, total 4353
+[2026.02.12 14:03] OpenAi Request | gpt-4.1 | input 2706, output 1603, total 4309
+[2026.02.12 14:04] OpenAi Request | gpt-4.1 | input 2718, output 1609, total 4327
+[2026.02.12 14:05] OpenAi Request | gpt-4.1 | input 2703, output 1625, total 4328
+[2026.02.12 14:06] OpenAi Request | gpt-4.1 | input 2701, output 1603, total 4304
+[2026.02.12 14:07] OpenAi Request | gpt-4.1 | input 2779, output 1592, total 4371
+[2026.02.12 14:08] OpenAi Request | gpt-4.1 | input 2990, output 1789, total 4779
+[2026.02.12 14:09] OpenAi Request | gpt-4.1 | input 3087, output 1996, total 5083
+[2026.02.12 14:10] OpenAi Request | gpt-4.1 | input 3067, output 1452, total 4519
+[2026.02.12 14:11] OpenAi Request | gpt-4.1 | input 2900, output 1745, total 4645
+[2026.02.12 14:12] OpenAi Request | gpt-4.1 | input 2853, output 1709, total 4562
+[2026.02.12 14:13] OpenAi Request | gpt-4.1 | input 2936, output 1791, total 4727
+[2026.02.12 14:14] OpenAi Request | gpt-4.1 | input 2833, output 1684, total 4517
+[2026.02.12 14:15] OpenAi Request | gpt-4.1 | input 2969, output 1589, total 4558
+[2026.02.12 14:16] OpenAi Request | gpt-4.1 | input 3040, output 1898, total 4938
+[2026.02.12 14:17] OpenAi Request | gpt-4.1 | input 2954, output 1786, total 4740
+[2026.02.12 14:17] OpenAi Request | gpt-4.1 | input 2953, output 1799, total 4752
+[2026.02.12 14:19] OpenAi Request | gpt-4.1 | input 2992, output 1860, total 4852
+[2026.02.12 14:19] OpenAi Request | gpt-4.1 | input 2858, output 1545, total 4403
+[2026.02.12 14:20] OpenAi Request | gpt-4.1 | input 2810, output 1660, total 4470
+[2026.02.12 14:21] OpenAi Request | gpt-4.1 | input 2861, output 1715, total 4576
+[2026.02.12 14:22] OpenAi Request | gpt-4.1 | input 2961, output 1749, total 4710
+[2026.02.12 14:23] OpenAi Request | gpt-4.1 | input 3024, output 1866, total 4890
+[2026.02.12 14:24] OpenAi Request | gpt-4.1 | input 2920, output 1749, total 4669
+[2026.02.12 14:25] OpenAi Request | gpt-4.1 | input 2985, output 1842, total 4827
+[2026.02.12 14:26] OpenAi Request | gpt-4.1 | input 2732, output 1584, total 4316
+[2026.02.12 14:27] OpenAi Request | gpt-4.1 | input 2946, output 1797, total 4743
+[2026.02.12 14:28] OpenAi Request | gpt-4.1 | input 2893, output 1739, total 4632
+[2026.02.12 14:29] OpenAi Request | gpt-4.1 | input 2849, output 1744, total 4593
+[2026.02.12 14:30] OpenAi Request | gpt-4.1 | input 2746, output 1595, total 4341
+[2026.02.12 14:31] OpenAi Request | gpt-4.1 | input 2801, output 1625, total 4426
+[2026.02.12 14:32] OpenAi Request | gpt-4.1 | input 2719, output 1542, total 4261
+[2026.02.12 14:33] OpenAi Request | gpt-4.1 | input 2850, output 1689, total 4539
+[2026.02.12 14:34] OpenAi Request | gpt-4.1 | input 2864, output 1611, total 4475
+[2026.02.12 14:35] OpenAi Request | gpt-4.1 | input 2850, output 1724, total 4574
+[2026.02.12 14:36] OpenAi Request | gpt-4.1 | input 2882, output 1694, total 4576
+[2026.02.12 14:37] OpenAi Request | gpt-4.1 | input 2854, output 1756, total 4610
+[2026.02.12 14:38] OpenAi Request | gpt-4.1 | input 2813, output 1708, total 4521
+[2026.02.12 14:39] OpenAi Request | gpt-4.1 | input 2687, output 1500, total 4187
+[2026.02.12 14:40] OpenAi Request | gpt-4.1 | input 2852, output 1704, total 4556
+[2026.02.12 14:41] OpenAi Request | gpt-4.1 | input 2930, output 1806, total 4736
+[2026.02.12 14:42] OpenAi Request | gpt-4.1 | input 2945, output 1821, total 4766
+[2026.02.12 14:43] OpenAi Request | gpt-4.1 | input 2939, output 1842, total 4781
+[2026.02.12 14:44] OpenAi Request | gpt-4.1 | input 2897, output 1711, total 4608
+[2026.02.12 14:45] OpenAi Request | gpt-4.1 | input 2748, output 1601, total 4349
+[2026.02.12 14:46] OpenAi Request | gpt-4.1 | input 2820, output 1672, total 4492
+[2026.02.12 14:47] OpenAi Request | gpt-4.1 | input 2785, output 1631, total 4416
+[2026.02.12 14:48] OpenAi Request | gpt-4.1 | input 2786, output 1636, total 4422
+[2026.02.12 14:49] OpenAi Request | gpt-4.1 | input 2975, output 1843, total 4818
+[2026.02.12 14:50] OpenAi Request | gpt-4.1 | input 2814, output 1629, total 4443
+[2026.02.12 14:51] OpenAi Request | gpt-4.1 | input 2778, output 1622, total 4400
+[2026.02.12 14:52] OpenAi Request | gpt-4.1 | input 2801, output 1605, total 4406
+[2026.02.12 14:53] OpenAi Request | gpt-4.1 | input 2855, output 1705, total 4560
+[2026.02.12 14:54] OpenAi Request | gpt-4.1 | input 2821, output 1685, total 4506
+[2026.02.12 14:55] OpenAi Request | gpt-4.1 | input 3023, output 1874, total 4897
+[2026.02.12 14:56] OpenAi Request | gpt-4.1 | input 2861, output 1676, total 4537
+[2026.02.12 14:57] OpenAi Request | gpt-4.1 | input 2892, output 1754, total 4646
+[2026.02.12 14:58] OpenAi Request | gpt-4.1 | input 2722, output 1656, total 4378
+[2026.02.12 14:59] OpenAi Request | gpt-4.1 | input 2892, output 1723, total 4615
+[2026.02.12 15:00] OpenAi Request | gpt-4.1 | input 2813, output 1723, total 4536
+[2026.02.12 15:01] OpenAi Request | gpt-4.1 | input 2882, output 1742, total 4624
+[2026.02.12 15:02] OpenAi Request | gpt-4.1 | input 2787, output 1644, total 4431
+[2026.02.12 15:03] OpenAi Request | gpt-4.1 | input 2694, output 1524, total 4218
+[2026.02.12 15:04] OpenAi Request | gpt-4.1 | input 2798, output 1337, total 4135
+[2026.02.12 15:05] OpenAi Request | gpt-4.1 | input 2786, output 1703, total 4489
+[2026.02.12 15:06] OpenAi Request | gpt-4.1 | input 2614, output 1471, total 4085
+[2026.02.12 15:08] OpenAi Request | gpt-4.1 | input 2762, output 1629, total 4391
+[2026.02.12 15:09] OpenAi Request | gpt-4.1 | input 2815, output 1685, total 4500
+[2026.02.12 15:10] OpenAi Request | gpt-4.1 | input 2725, output 1593, total 4318
+[2026.02.12 15:11] OpenAi Request | gpt-4.1 | input 2851, output 1706, total 4557
+[2026.02.12 15:11] OpenAi Request | gpt-4.1 | input 2736, output 1630, total 4366
+[2026.02.12 15:13] OpenAi Request | gpt-4.1 | input 2874, output 1677, total 4551
+[2026.02.12 15:14] OpenAi Request | gpt-4.1 | input 2803, output 1680, total 4483
+[2026.02.12 15:15] OpenAi Request | gpt-4.1 | input 2778, output 1656, total 4434
+[2026.02.12 15:16] OpenAi Request | gpt-4.1 | input 2842, output 1743, total 4585
+[2026.02.12 15:17] OpenAi Request | gpt-4.1 | input 2772, output 1634, total 4406
+[2026.02.12 15:18] OpenAi Request | gpt-4.1 | input 2761, output 1632, total 4393
+[2026.02.12 15:19] OpenAi Request | gpt-4.1 | input 2897, output 1709, total 4606
+[2026.02.12 15:20] OpenAi Request | gpt-4.1 | input 2811, output 1666, total 4477
+[2026.02.12 15:21] OpenAi Request | gpt-4.1 | input 2980, output 1836, total 4816
+[2026.02.12 15:22] OpenAi Request | gpt-4.1 | input 2892, output 1760, total 4652
+[2026.02.12 15:23] OpenAi Request | gpt-4.1 | input 2846, output 1695, total 4541
+[2026.02.12 15:24] OpenAi Request | gpt-4.1 | input 2800, output 1366, total 4166
+[2026.02.12 15:25] OpenAi Request | gpt-4.1 | input 2783, output 1670, total 4453
+[2026.02.12 15:25] OpenAi Request | gpt-4.1 | input 2802, output 1647, total 4449
+[2026.02.12 15:26] OpenAi Request | gpt-4.1 | input 2802, output 1616, total 4418
+[2026.02.12 15:27] OpenAi Request | gpt-4.1 | input 2657, output 1351, total 4008
+[2026.02.12 15:28] OpenAi Request | gpt-4.1 | input 2643, output 1468, total 4111
+[2026.02.12 15:29] OpenAi Request | gpt-4.1 | input 2464, output 1384, total 3848
+[2026.02.12 15:30] OpenAi Request | gpt-4.1 | input 2594, output 1453, total 4047
+[2026.02.12 15:30] OpenAi Request | gpt-4.1 | input 2710, output 1530, total 4240
+[2026.02.12 15:31] OpenAi Request | gpt-4.1 | input 2552, output 1348, total 3900
+[2026.02.12 15:32] OpenAi Request | gpt-4.1 | input 2606, output 1103, total 3709
+[2026.02.12 15:33] OpenAi Request | gpt-4.1 | input 2845, output 1702, total 4547
+[2026.02.12 15:34] OpenAi Request | gpt-4.1 | input 2848, output 1675, total 4523
+[2026.02.12 15:35] OpenAi Request | gpt-4.1 | input 2765, output 1624, total 4389
+[2026.02.12 15:36] OpenAi Request | gpt-4.1 | input 2885, output 1705, total 4590
+[2026.02.12 15:37] OpenAi Request | gpt-4.1 | input 2849, output 1718, total 4567
+[2026.02.12 15:38] OpenAi Request | gpt-4.1 | input 2880, output 1674, total 4554
+[2026.02.12 15:39] OpenAi Request | gpt-4.1 | input 2850, output 1747, total 4597
+[2026.02.12 15:39] OpenAi Request | gpt-4.1 | input 2891, output 1703, total 4594
+[2026.02.12 15:40] OpenAi Request | gpt-4.1 | input 2678, output 1554, total 4232
+[2026.02.12 15:41] OpenAi Request | gpt-4.1 | input 2856, output 1708, total 4564
+[2026.02.12 15:42] OpenAi Request | gpt-4.1 | input 2714, output 1523, total 4237
+[2026.02.12 15:43] OpenAi Request | gpt-4.1 | input 2784, output 1618, total 4402
+[2026.02.12 15:44] OpenAi Request | gpt-4.1 | input 2810, output 1615, total 4425
+[2026.02.12 15:45] OpenAi Request | gpt-4.1 | input 2795, output 1630, total 4425
+[2026.02.12 15:46] OpenAi Request | gpt-4.1 | input 2796, output 1592, total 4388
+[2026.02.12 15:47] OpenAi Request | gpt-4.1 | input 2791, output 1679, total 4470
+[2026.02.12 15:49] OpenAi Request | gpt-4.1 | input 2840, output 1676, total 4516
+[2026.02.12 15:50] OpenAi Request | gpt-4.1 | input 2799, output 1677, total 4476
+[2026.02.12 15:51] OpenAi Request | gpt-4.1 | input 2711, output 1599, total 4310
+[2026.02.12 15:52] OpenAi Request | gpt-4.1 | input 2883, output 1738, total 4621
+[2026.02.12 15:52] OpenAi Request | gpt-4.1 | input 2758, output 1639, total 4397
+[2026.02.12 15:53] OpenAi Request | gpt-4.1 | input 2841, output 1660, total 4501
+[2026.02.12 15:54] OpenAi Request | gpt-4.1 | input 2921, output 1797, total 4718
+[2026.02.12 15:55] OpenAi Request | gpt-4.1 | input 2852, output 1637, total 4489
+[2026.02.12 15:56] OpenAi Request | gpt-4.1 | input 2917, output 1793, total 4710
+[2026.02.12 15:57] OpenAi Request | gpt-4.1 | input 2820, output 1483, total 4303
+[2026.02.12 15:58] OpenAi Request | gpt-4.1 | input 2745, output 1559, total 4304
+[2026.02.12 15:59] OpenAi Request | gpt-4.1 | input 2750, output 1589, total 4339
+[2026.02.12 16:00] OpenAi Request | gpt-4.1 | input 2815, output 1605, total 4420
+[2026.02.12 16:01] OpenAi Request | gpt-4.1 | input 2807, output 1603, total 4410
+[2026.02.12 16:02] OpenAi Request | gpt-4.1 | input 2720, output 1539, total 4259
+[2026.02.12 16:05] OpenAi Request | gpt-4.1 | input 2725, output 1607, total 4332
+[2026.02.12 16:05] OpenAi Request | gpt-4.1 | input 2768, output 1619, total 4387
+[2026.02.12 16:06] OpenAi Request | gpt-4.1 | input 2856, output 1710, total 4566
+[2026.02.12 16:07] OpenAi Request | gpt-4.1 | input 2827, output 1646, total 4473
+[2026.02.12 16:08] OpenAi Request | gpt-4.1 | input 2806, output 1636, total 4442
+[2026.02.12 16:09] OpenAi Request | gpt-4.1 | input 2918, output 1648, total 4566
+[2026.02.12 16:10] OpenAi Request | gpt-4.1 | input 2770, output 1660, total 4430
+[2026.02.12 16:11] OpenAi Request | gpt-4.1 | input 2819, output 1750, total 4569
+[2026.02.12 16:13] OpenAi Request | gpt-4.1 | input 2636, output 1457, total 4093
+[2026.02.12 16:13] OpenAi Request | gpt-4.1 | input 2783, output 1615, total 4398
+[2026.02.12 16:14] OpenAi Request | gpt-4.1 | input 2789, output 1624, total 4413
+[2026.02.12 16:15] OpenAi Request | gpt-4.1 | input 2561, output 1437, total 3998
+[2026.02.12 16:16] OpenAi Request | gpt-4.1 | input 2913, output 1779, total 4692
+[2026.02.12 16:17] OpenAi Request | gpt-4.1 | input 2802, output 1707, total 4509
+[2026.02.12 16:18] OpenAi Request | gpt-4.1 | input 2741, output 1546, total 4287
+[2026.02.12 16:19] OpenAi Request | gpt-4.1 | input 2873, output 1586, total 4459
+[2026.02.12 16:20] OpenAi Request | gpt-4.1 | input 2912, output 1762, total 4674
+[2026.02.12 16:21] OpenAi Request | gpt-4.1 | input 2754, output 1616, total 4370
+[2026.02.12 16:22] OpenAi Request | gpt-4.1 | input 2862, output 1756, total 4618
+[2026.02.12 16:23] OpenAi Request | gpt-4.1 | input 2999, output 1833, total 4832
+[2026.02.12 16:24] OpenAi Request | gpt-4.1 | input 2877, output 1759, total 4636
+[2026.02.12 16:25] OpenAi Request | gpt-4.1 | input 2932, output 1809, total 4741
+[2026.02.12 16:26] OpenAi Request | gpt-4.1 | input 2820, output 1619, total 4439
+[2026.02.12 16:26] OpenAi Request | gpt-4.1 | input 2565, output 1434, total 3999
+[2026.02.12 16:27] OpenAi Request | gpt-4.1 | input 2928, output 1739, total 4667
+[2026.02.12 16:28] OpenAi Request | gpt-4.1 | input 3088, output 1904, total 4992
+[2026.02.12 16:29] OpenAi Request | gpt-4.1 | input 2970, output 1430, total 4400
+[2026.02.12 16:30] OpenAi Request | gpt-4.1 | input 2980, output 1865, total 4845
+[2026.02.12 16:31] OpenAi Request | gpt-4.1 | input 2854, output 1740, total 4594
+[2026.02.12 16:32] OpenAi Request | gpt-4.1 | input 2781, output 1669, total 4450
+[2026.02.12 16:33] OpenAi Request | gpt-4.1 | input 2879, output 1775, total 4654
+[2026.02.12 16:35] OpenAi Request | gpt-4.1 | input 2861, output 1729, total 4590
+[2026.02.12 16:35] OpenAi Request | gpt-4.1 | input 2921, output 1612, total 4533
+[2026.02.12 16:36] OpenAi Request | gpt-4.1 | input 2785, output 1661, total 4446
+[2026.02.12 16:37] OpenAi Request | gpt-4.1 | input 2842, output 1629, total 4471
+[2026.02.12 16:38] OpenAi Request | gpt-4.1 | input 2874, output 1228, total 4102
+[2026.02.12 16:39] OpenAi Request | gpt-4.1 | input 2959, output 1837, total 4796
+[2026.02.12 16:40] OpenAi Request | gpt-4.1 | input 2921, output 1660, total 4581
+[2026.02.12 16:41] OpenAi Request | gpt-4.1 | input 2823, output 1674, total 4497
+[2026.02.12 16:42] OpenAi Request | gpt-4.1 | input 2793, output 1639, total 4432
+[2026.02.12 16:43] OpenAi Request | gpt-4.1 | input 2958, output 1878, total 4836
+[2026.02.12 16:43] OpenAi Request | gpt-4.1 | input 3080, output 1865, total 4945
+[2026.02.12 16:44] OpenAi Request | gpt-4.1 | input 2942, output 1866, total 4808
+[2026.02.12 16:45] OpenAi Request | gpt-4.1 | input 2927, output 1721, total 4648
+[2026.02.12 16:46] OpenAi Request | gpt-4.1 | input 2843, output 1447, total 4290
+[2026.02.12 16:47] OpenAi Request | gpt-4.1 | input 3068, output 1955, total 5023
+[2026.02.12 16:48] OpenAi Request | gpt-4.1 | input 2814, output 1699, total 4513
+[2026.02.12 16:49] OpenAi Request | gpt-4.1 | input 2987, output 1838, total 4825
+[2026.02.12 16:50] OpenAi Request | gpt-4.1 | input 2931, output 1799, total 4730
+[2026.02.12 16:51] OpenAi Request | gpt-4.1 | input 2948, output 1825, total 4773
+[2026.02.12 16:52] OpenAi Request | gpt-4.1 | input 2888, output 1742, total 4630
+[2026.02.12 16:53] OpenAi Request | gpt-4.1 | input 2886, output 1725, total 4611
+[2026.02.12 16:54] OpenAi Request | gpt-4.1 | input 2701, output 1574, total 4275
+[2026.02.12 16:55] OpenAi Request | gpt-4.1 | input 2566, output 1458, total 4024
+[2026.02.12 16:56] OpenAi Request | gpt-4.1 | input 2624, output 1522, total 4146
+[2026.02.12 16:57] OpenAi Request | gpt-4.1 | input 2623, output 1619, total 4242
+[2026.02.12 16:58] OpenAi Request | gpt-4.1 | input 2710, output 1521, total 4231
+[2026.02.12 16:59] OpenAi Request | gpt-4.1 | input 2788, output 1629, total 4417
+[2026.02.12 17:00] OpenAi Request | gpt-4.1 | input 2699, output 1338, total 4037
+[2026.02.12 17:01] OpenAi Request | gpt-4.1 | input 2821, output 1671, total 4492
+[2026.02.12 17:02] OpenAi Request | gpt-4.1 | input 2933, output 1783, total 4716
+[2026.02.12 17:03] OpenAi Request | gpt-4.1 | input 2752, output 1614, total 4366
+[2026.02.12 17:04] OpenAi Request | gpt-4.1 | input 2820, output 1615, total 4435
+[2026.02.12 17:05] OpenAi Request | gpt-4.1 | input 2953, output 1853, total 4806
+[2026.02.12 17:06] OpenAi Request | gpt-4.1 | input 2533, output 1398, total 3931
+[2026.02.12 17:07] OpenAi Request | gpt-4.1 | input 2672, output 1551, total 4223
+[2026.02.12 17:09] OpenAi Request | gpt-4.1 | input 3024, output 1827, total 4851
+[2026.02.12 17:11] OpenAi Request | gpt-4.1 | input 3016, output 1833, total 4849
+[2026.02.12 17:12] OpenAi Request | gpt-4.1 | input 2961, output 1796, total 4757
+[2026.02.12 17:13] OpenAi Request | gpt-4.1 | input 3038, output 1854, total 4892
+[2026.02.13 15:05] OpenAi Request | gpt-4.1 | input 2958, output 1805, total 4763
+[2026.02.13 15:06] OpenAi Request | gpt-4.1 | input 2920, output 1776, total 4696
+[2026.02.13 15:07] OpenAi Request | gpt-4.1 | input 2923, output 1770, total 4693
+[2026.02.13 15:08] OpenAi Request | gpt-4.1 | input 3043, output 1909, total 4952
+[2026.02.13 15:09] OpenAi Request | gpt-4.1 | input 2830, output 1695, total 4525
+[2026.02.13 15:10] OpenAi Request | gpt-4.1 | input 2628, output 1585, total 4213
+[2026.02.13 15:11] OpenAi Request | gpt-4.1 | input 2697, output 1533, total 4230
+[2026.02.13 15:12] OpenAi Request | gpt-4.1 | input 2950, output 1785, total 4735
+[2026.02.13 15:13] OpenAi Request | gpt-4.1 | input 3107, output 1972, total 5079
+[2026.02.13 15:13] OpenAi Request | gpt-4.1 | input 2742, output 1575, total 4317
+[2026.02.13 15:14] OpenAi Request | gpt-4.1 | input 2667, output 1563, total 4230
+[2026.02.13 15:15] OpenAi Request | gpt-4.1 | input 2724, output 1541, total 4265
+[2026.02.13 15:16] OpenAi Request | gpt-4.1 | input 2975, output 1854, total 4829
+[2026.02.13 15:16] OpenAi Request | gpt-4.1 | input 2910, output 1172, total 4082
+[2026.02.13 15:17] OpenAi Request | gpt-4.1 | input 2826, output 1727, total 4553
+[2026.02.13 15:18] OpenAi Request | gpt-4.1 | input 2890, output 1799, total 4689
+[2026.02.13 15:18] OpenAi Request | gpt-4.1 | input 2760, output 1558, total 4318
+[2026.02.13 15:19] OpenAi Request | gpt-4.1 | input 2804, output 1641, total 4445
+[2026.02.13 15:20] OpenAi Request | gpt-4.1 | input 2951, output 1774, total 4725
+[2026.02.13 15:21] OpenAi Request | gpt-4.1 | input 2753, output 1562, total 4315
+[2026.02.13 15:22] OpenAi Request | gpt-4.1 | input 2802, output 1685, total 4487
+[2026.02.13 15:22] OpenAi Request | gpt-4.1 | input 2818, output 1656, total 4474
+[2026.02.13 15:23] OpenAi Request | gpt-4.1 | input 2907, output 1712, total 4619
+[2026.02.13 15:24] OpenAi Request | gpt-4.1 | input 2902, output 1772, total 4674
+[2026.02.13 15:25] OpenAi Request | gpt-4.1 | input 2962, output 1860, total 4822
+[2026.02.13 15:26] OpenAi Request | gpt-4.1 | input 3058, output 1926, total 4984
+[2026.02.13 15:27] OpenAi Request | gpt-4.1 | input 2911, output 1731, total 4642
+[2026.02.13 15:28] OpenAi Request | gpt-4.1 | input 2874, output 1695, total 4569
+[2026.02.13 15:29] OpenAi Request | gpt-4.1 | input 2735, output 1588, total 4323
+[2026.02.13 15:29] OpenAi Request | gpt-4.1 | input 2919, output 1802, total 4721
+[2026.02.13 15:30] OpenAi Request | gpt-4.1 | input 2753, output 1697, total 4450
+[2026.02.13 15:31] OpenAi Request | gpt-4.1 | input 2820, output 1636, total 4456
+[2026.02.13 15:32] OpenAi Request | gpt-4.1 | input 2797, output 1677, total 4474
+[2026.02.13 15:33] OpenAi Request | gpt-4.1 | input 2706, output 1612, total 4318
+[2026.02.13 15:34] OpenAi Request | gpt-4.1 | input 2783, output 1679, total 4462
+[2026.02.13 15:35] OpenAi Request | gpt-4.1 | input 2737, output 1628, total 4365
+[2026.02.13 15:36] OpenAi Request | gpt-4.1 | input 2858, output 1709, total 4567
+[2026.02.13 15:37] OpenAi Request | gpt-4.1 | input 2749, output 1598, total 4347
+[2026.02.13 15:38] OpenAi Request | gpt-4.1 | input 2848, output 1740, total 4588
+[2026.02.13 15:39] OpenAi Request | gpt-4.1 | input 2910, output 1754, total 4664
+[2026.02.13 15:40] OpenAi Request | gpt-4.1 | input 2715, output 1568, total 4283
+[2026.02.13 15:41] OpenAi Request | gpt-4.1 | input 2793, output 1527, total 4320
+[2026.02.13 15:42] OpenAi Request | gpt-4.1 | input 2826, output 1701, total 4527
+[2026.02.13 15:42] OpenAi Request | gpt-4.1 | input 2824, output 1690, total 4514
+[2026.02.13 15:43] OpenAi Request | gpt-4.1 | input 2932, output 1681, total 4613
+[2026.02.13 15:45] OpenAi Request | gpt-4.1 | input 2794, output 1598, total 4392
+[2026.02.13 15:46] OpenAi Request | gpt-4.1 | input 2776, output 1577, total 4353
+[2026.02.13 15:47] OpenAi Request | gpt-4.1 | input 2837, output 1774, total 4611
+[2026.02.13 15:48] OpenAi Request | gpt-4.1 | input 2957, output 1872, total 4829
+[2026.02.13 15:49] OpenAi Request | gpt-4.1 | input 2822, output 1682, total 4504
+[2026.02.13 15:49] OpenAi Request | gpt-4.1 | input 2834, output 1744, total 4578
+[2026.02.13 15:51] OpenAi Request | gpt-4.1 | input 2877, output 1728, total 4605
+[2026.02.13 15:52] OpenAi Request | gpt-4.1 | input 2978, output 1806, total 4784
+[2026.02.13 15:53] OpenAi Request | gpt-4.1 | input 2917, output 1715, total 4632
+[2026.02.13 15:54] OpenAi Request | gpt-4.1 | input 2992, output 1829, total 4821
+[2026.02.13 15:55] OpenAi Request | gpt-4.1 | input 2738, output 1592, total 4330
+[2026.02.13 15:56] OpenAi Request | gpt-4.1 | input 2698, output 1564, total 4262
+[2026.02.13 15:57] OpenAi Request | gpt-4.1 | input 2919, output 1765, total 4684
+[2026.02.13 15:58] OpenAi Request | gpt-4.1 | input 2690, output 1512, total 4202
+[2026.02.13 15:59] OpenAi Request | gpt-4.1 | input 2749, output 1580, total 4329
+[2026.02.13 16:01] OpenAi Request | gpt-4.1 | input 2788, output 1638, total 4426
+[2026.02.13 16:02] OpenAi Request | gpt-4.1 | input 2790, output 1649, total 4439
+[2026.02.13 16:03] OpenAi Request | gpt-4.1 | input 2676, output 1569, total 4245
+[2026.02.13 16:04] OpenAi Request | gpt-4.1 | input 2808, output 1705, total 4513
+[2026.02.13 16:05] OpenAi Request | gpt-4.1 | input 2808, output 1624, total 4432
+[2026.02.13 16:06] OpenAi Request | gpt-4.1 | input 2883, output 1755, total 4638
+[2026.02.13 16:07] OpenAi Request | gpt-4.1 | input 2872, output 1731, total 4603
+[2026.02.13 16:08] OpenAi Request | gpt-4.1 | input 2837, output 1666, total 4503
+[2026.02.13 16:09] OpenAi Request | gpt-4.1 | input 2732, output 1614, total 4346
+[2026.02.13 16:10] OpenAi Request | gpt-4.1 | input 2867, output 1771, total 4638
+[2026.02.13 16:11] OpenAi Request | gpt-4.1 | input 2812, output 1727, total 4539
+[2026.02.13 16:12] OpenAi Request | gpt-4.1 | input 2895, output 1744, total 4639
+[2026.02.13 16:13] OpenAi Request | gpt-4.1 | input 2943, output 1842, total 4785
+[2026.02.13 16:14] OpenAi Request | gpt-4.1 | input 2718, output 1556, total 4274
+[2026.02.13 16:15] OpenAi Request | gpt-4.1 | input 2790, output 1675, total 4465
+[2026.02.13 16:16] OpenAi Request | gpt-4.1 | input 3032, output 1781, total 4813
+[2026.02.13 16:17] OpenAi Request | gpt-4.1 | input 2949, output 1779, total 4728
+[2026.02.13 16:18] OpenAi Request | gpt-4.1 | input 2778, output 1610, total 4388
+[2026.02.13 16:19] OpenAi Request | gpt-4.1 | input 2948, output 1819, total 4767
+[2026.02.13 16:20] OpenAi Request | gpt-4.1 | input 2877, output 1766, total 4643
+[2026.02.13 16:20] OpenAi Request | gpt-4.1 | input 2873, output 1771, total 4644
+[2026.02.13 16:21] OpenAi Request | gpt-4.1 | input 2687, output 1541, total 4228
+[2026.02.13 16:24] OpenAi Request | gpt-4.1 | input 2875, output 1719, total 4594
+[2026.02.13 16:25] OpenAi Request | gpt-4.1 | input 2806, output 1468, total 4274
+[2026.02.13 16:26] OpenAi Request | gpt-4.1 | input 2929, output 1797, total 4726
+[2026.02.13 16:26] OpenAi Request | gpt-4.1 | input 2682, output 1593, total 4275
+[2026.02.13 16:27] OpenAi Request | gpt-4.1 | input 2753, output 1652, total 4405
+[2026.02.13 16:28] OpenAi Request | gpt-4.1 | input 2763, output 1630, total 4393
+[2026.02.13 16:29] OpenAi Request | gpt-4.1 | input 2762, output 1616, total 4378
+[2026.02.13 16:30] OpenAi Request | gpt-4.1 | input 2710, output 1584, total 4294
+[2026.02.13 16:31] OpenAi Request | gpt-4.1 | input 2857, output 1722, total 4579
+[2026.02.13 16:32] OpenAi Request | gpt-4.1 | input 2857, output 1696, total 4553
+[2026.02.13 16:33] OpenAi Request | gpt-4.1 | input 2844, output 1683, total 4527
+[2026.02.13 16:34] OpenAi Request | gpt-4.1 | input 2891, output 1721, total 4612
+[2026.02.13 16:35] OpenAi Request | gpt-4.1 | input 2822, output 1684, total 4506
+[2026.02.13 16:36] OpenAi Request | gpt-4.1 | input 2940, output 1801, total 4741
+[2026.02.13 16:37] OpenAi Request | gpt-4.1 | input 2813, output 1668, total 4481
+[2026.02.13 16:38] OpenAi Request | gpt-4.1 | input 2695, output 1614, total 4309
+[2026.02.13 16:39] OpenAi Request | gpt-4.1 | input 2621, output 1533, total 4154
+[2026.02.13 16:39] OpenAi Request | gpt-4.1 | input 2625, output 1517, total 4142
+[2026.02.13 16:40] OpenAi Request | gpt-4.1 | input 2711, output 1638, total 4349
+[2026.02.13 16:41] OpenAi Request | gpt-4.1 | input 2610, output 1469, total 4079
+[2026.02.13 16:42] OpenAi Request | gpt-4.1 | input 2632, output 1524, total 4156
+[2026.02.13 16:42] OpenAi Request | gpt-4.1 | input 2733, output 1691, total 4424
+[2026.02.13 16:43] OpenAi Request | gpt-4.1 | input 2807, output 1672, total 4479
+[2026.02.13 16:44] OpenAi Request | gpt-4.1 | input 2900, output 1763, total 4663
+[2026.02.13 16:45] OpenAi Request | gpt-4.1 | input 2958, output 1690, total 4648
+[2026.02.13 16:46] OpenAi Request | gpt-4.1 | input 2928, output 1829, total 4757
+[2026.02.13 16:47] OpenAi Request | gpt-4.1 | input 2846, output 1726, total 4572
+[2026.02.13 16:48] OpenAi Request | gpt-4.1 | input 2814, output 1701, total 4515
+[2026.02.13 16:49] OpenAi Request | gpt-4.1 | input 2751, output 1630, total 4381
+[2026.02.13 16:50] OpenAi Request | gpt-4.1 | input 2713, output 1557, total 4270
+[2026.02.13 16:50] OpenAi Request | gpt-4.1 | input 2633, output 1524, total 4157
+[2026.02.13 16:51] OpenAi Request | gpt-4.1 | input 2833, output 1668, total 4501
+[2026.02.13 16:52] OpenAi Request | gpt-4.1 | input 2936, output 1753, total 4689
+[2026.02.13 16:53] OpenAi Request | gpt-4.1 | input 2802, output 1659, total 4461
+[2026.02.13 16:54] OpenAi Request | gpt-4.1 | input 2866, output 1749, total 4615
+[2026.02.13 16:55] OpenAi Request | gpt-4.1 | input 2847, output 1719, total 4566
+[2026.02.13 16:56] OpenAi Request | gpt-4.1 | input 2776, output 1568, total 4344
+[2026.02.13 16:57] OpenAi Request | gpt-4.1 | input 2792, output 1578, total 4370
+[2026.02.13 16:58] OpenAi Request | gpt-4.1 | input 2917, output 1756, total 4673
+[2026.02.13 16:59] OpenAi Request | gpt-4.1 | input 2780, output 1654, total 4434
+[2026.02.13 17:00] OpenAi Request | gpt-4.1 | input 2829, output 1742, total 4571
+[2026.02.13 17:02] OpenAi Request | gpt-4.1 | input 2746, output 1640, total 4386
+[2026.02.13 17:03] OpenAi Request | gpt-4.1 | input 2795, output 1658, total 4453
+[2026.02.13 17:04] OpenAi Request | gpt-4.1 | input 2831, output 1723, total 4554
+[2026.02.13 17:05] OpenAi Request | gpt-4.1 | input 2835, output 1633, total 4468
+[2026.02.13 17:06] OpenAi Request | gpt-4.1 | input 2897, output 1779, total 4676
+[2026.02.13 17:08] OpenAi Request | gpt-4.1 | input 2789, output 1665, total 4454
+[2026.02.13 17:08] OpenAi Request | gpt-4.1 | input 2754, output 1571, total 4325
+[2026.02.13 17:09] OpenAi Request | gpt-4.1 | input 2544, output 1387, total 3931
+[2026.02.13 17:10] OpenAi Request | gpt-4.1 | input 2688, output 1549, total 4237
+[2026.02.13 17:11] OpenAi Request | gpt-4.1 | input 2779, output 1679, total 4458
+[2026.02.13 17:12] OpenAi Request | gpt-4.1 | input 2724, output 1602, total 4326
+[2026.02.13 17:13] OpenAi Request | gpt-4.1 | input 2906, output 1712, total 4618
+[2026.02.13 17:15] OpenAi Request | gpt-4.1 | input 2837, output 1679, total 4516
+[2026.02.13 17:15] OpenAi Request | gpt-4.1 | input 789, output 78, total 867
+[2026.02.13 17:26] OpenAi Request | gpt-4.1 | input 2538, output 1288, total 3826
+[2026.02.13 17:27] OpenAi Request | gpt-4.1 | input 2618, output 1480, total 4098
+[2026.02.13 17:28] OpenAi Request | gpt-4.1 | input 2912, output 1801, total 4713
+[2026.02.13 17:33] OpenAi Request | gpt-4.1 | input 2912, output 1798, total 4710
+[2026.02.13 18:51] OpenAi Request | gpt-4.1-mini | input 2538, output 1318, total 3856
+[2026.02.13 18:52] OpenAi Request | gpt-4.1-mini | input 2742, output 1729, total 4471
+[2026.02.13 18:53] OpenAi Request | gpt-4.1-mini | input 2912, output 1858, total 4770
+[2026.02.13 18:54] OpenAi Request | gpt-4.1-mini | input 2955, output 1758, total 4713
+[2026.02.13 18:54] OpenAi Request | gpt-4.1-mini | input 2565, output 1490, total 4055
+[2026.02.14 00:14] OpenAi Request | gpt-4.1-mini | input 1891, output 469, total 2360
+[2026.02.14 00:15] OpenAi Request | gpt-4.1-mini | input 1891, output 475, total 2366
+[2026.02.14 00:17] OpenAi Request | gpt-4.1-mini | input 1891, output 465, total 2356
+[2026.02.14 00:18] OpenAi Request | gpt-4.1-mini | input 1948, output 673, total 2621
+[2026.02.14 18:53] OpenAi Request | gpt-4.1-mini | input 1890, output 466, total 2356
+[2026.02.14 18:54] OpenAi Request | gpt-4.1-mini | input 1947, output 577, total 2524
+
+[2026.02.14 18:58] OpenAi Request | gpt-4.1-mini | input 4386, output 1423, total 5809
+[2026.02.14 18:59] OpenAi Request | gpt-4.1-mini | input 4420, output 1484, total 5904
+[2026.02.14 18:59] OpenAi Request | gpt-4.1-mini | input 4441, output 1592, total 6033
+[2026.02.14 19:00] OpenAi Request | gpt-4.1-mini | input 4376, output 1499, total 5875
+[2026.02.14 19:01] OpenAi Request | gpt-4.1-mini | input 4598, output 1542, total 6140
+[2026.02.14 19:01] OpenAi Request | gpt-4.1-mini | input 4412, output 1467, total 5879
+[2026.02.14 19:02] OpenAi Request | gpt-4.1-mini | input 4390, output 1505, total 5895
+[2026.02.14 19:03] OpenAi Request | gpt-4.1-mini | input 4435, output 1544, total 5979
+[2026.02.14 19:04] OpenAi Request | gpt-4.1-mini | input 4606, output 1502, total 6108
+[2026.02.14 19:04] OpenAi Request | gpt-4.1-mini | input 4769, output 1311, total 6080
+[2026.02.14 19:05] OpenAi Request | gpt-4.1-mini | input 4713, output 1328, total 6041
+[2026.02.14 19:05] OpenAi Request | gpt-4.1-mini | input 4625, output 1436, total 6061
+[2026.02.14 19:06] OpenAi Request | gpt-4.1-mini | input 4510, output 1580, total 6090
+[2026.02.14 19:07] OpenAi Request | gpt-4.1-mini | input 4628, output 1663, total 6291
+[2026.02.14 19:07] OpenAi Request | gpt-4.1-mini | input 4523, output 1550, total 6073
+[2026.02.14 19:08] OpenAi Request | gpt-4.1-mini | input 4429, output 1544, total 5973
+[2026.02.14 19:09] OpenAi Request | gpt-4.1-mini | input 4748, output 1697, total 6445
+[2026.02.14 19:10] OpenAi Request | gpt-4.1-mini | input 4787, output 1428, total 6215
+[2026.02.14 19:10] OpenAi Request | gpt-4.1-mini | input 4890, output 1337, total 6227
+[2026.02.14 19:11] OpenAi Request | gpt-4.1-mini | input 4721, output 1130, total 5851
+[2026.02.14 19:12] OpenAi Request | gpt-4.1-mini | input 4881, output 1410, total 6291
+[2026.02.14 19:12] OpenAi Request | gpt-4.1-mini | input 4768, output 1489, total 6257
+[2026.02.14 19:13] OpenAi Request | gpt-4.1-mini | input 4760, output 1626, total 6386
+[2026.02.14 19:14] OpenAi Request | gpt-4.1-mini | input 4718, output 1542, total 6260
+[2026.02.14 19:14] OpenAi Request | gpt-4.1-mini | input 4815, output 1118, total 5933
+[2026.02.14 19:15] OpenAi Request | gpt-4.1-mini | input 5021, output 933, total 5954
+[2026.02.14 19:16] OpenAi Request | gpt-4.1-mini | input 4999, output 1589, total 6588
+[2026.02.14 19:17] OpenAi Request | gpt-4.1-mini | input 4974, output 2821, total 7795
+[2026.02.14 19:17] OpenAi Request | gpt-4.1-mini | input 5105, output 1602, total 6707
+[2026.02.14 19:18] OpenAi Request | gpt-4.1-mini | input 4850, output 1531, total 6381
+[2026.02.14 19:19] OpenAi Request | gpt-4.1-mini | input 4918, output 1185, total 6103
+[2026.02.14 19:19] OpenAi Request | gpt-4.1-mini | input 4718, output 1525, total 6243
+[2026.02.14 19:20] OpenAi Request | gpt-4.1-mini | input 4731, output 1564, total 6295
+[2026.02.14 19:20] OpenAi Request | gpt-4.1-mini | input 4773, output 1507, total 6280
+[2026.02.14 19:21] OpenAi Request | gpt-4.1-mini | input 4553, output 1371, total 5924
+[2026.02.14 19:22] OpenAi Request | gpt-4.1-mini | input 4697, output 1394, total 6091
+[2026.02.14 19:22] OpenAi Request | gpt-4.1-mini | input 4804, output 1277, total 6081
+[2026.02.14 19:23] OpenAi Request | gpt-4.1-mini | input 4782, output 1461, total 6243
+[2026.02.14 19:24] OpenAi Request | gpt-4.1-mini | input 4903, output 1429, total 6332
+[2026.02.14 19:24] OpenAi Request | gpt-4.1-mini | input 4682, output 1589, total 6271
+[2026.02.14 19:25] OpenAi Request | gpt-4.1-mini | input 4796, output 1186, total 5982
+[2026.02.14 19:26] OpenAi Request | gpt-4.1-mini | input 5090, output 1322, total 6412
+[2026.02.14 19:26] OpenAi Request | gpt-4.1-mini | input 4826, output 2025, total 6851
+[2026.02.14 19:27] OpenAi Request | gpt-4.1-mini | input 4873, output 1444, total 6317
+[2026.02.14 19:28] OpenAi Request | gpt-4.1-mini | input 4814, output 1424, total 6238
+[2026.02.14 19:28] OpenAi Request | gpt-4.1-mini | input 4689, output 719, total 5408
+[2026.02.14 19:29] OpenAi Request | gpt-4.1-mini | input 4638, output 1270, total 5908
+[2026.02.14 19:29] OpenAi Request | gpt-4.1-mini | input 4593, output 1448, total 6041
+[2026.02.14 19:30] OpenAi Request | gpt-4.1-mini | input 4594, output 1513, total 6107
+[2026.02.14 19:31] OpenAi Request | gpt-4.1-mini | input 5019, output 1295, total 6314
+[2026.02.14 19:31] OpenAi Request | gpt-4.1-mini | input 5167, output 1492, total 6659
+[2026.02.14 19:32] OpenAi Request | gpt-4.1-mini | input 5078, output 1390, total 6468
+[2026.02.14 19:33] OpenAi Request | gpt-4.1-mini | input 5002, output 1517, total 6519
+[2026.02.14 19:33] OpenAi Request | gpt-4.1-mini | input 5022, output 1387, total 6409
+[2026.02.14 19:34] OpenAi Request | gpt-4.1-mini | input 4820, output 1207, total 6027
+[2026.02.14 19:35] OpenAi Request | gpt-4.1-mini | input 4866, output 1122, total 5988
+[2026.02.14 19:35] OpenAi Request | gpt-4.1-mini | input 5009, output 1592, total 6601
+[2026.02.14 19:36] OpenAi Request | gpt-4.1-mini | input 4992, output 877, total 5869
+[2026.02.14 19:37] OpenAi Request | gpt-4.1-mini | input 4990, output 1523, total 6513
+[2026.02.14 19:37] OpenAi Request | gpt-4.1-mini | input 5103, output 1286, total 6389
+[2026.02.14 19:38] OpenAi Request | gpt-4.1-mini | input 4878, output 1265, total 6143
+[2026.02.14 19:38] OpenAi Request | gpt-4.1-mini | input 4911, output 1377, total 6288
+[2026.02.14 19:39] OpenAi Request | gpt-4.1-mini | input 4752, output 1523, total 6275
+[2026.02.14 19:40] OpenAi Request | gpt-4.1-mini | input 4739, output 1238, total 5977
+[2026.02.14 19:41] OpenAi Request | gpt-4.1-mini | input 4862, output 1338, total 6200
+[2026.02.14 19:41] OpenAi Request | gpt-4.1-mini | input 4867, output 1856, total 6723
+[2026.02.14 19:42] OpenAi Request | gpt-4.1-mini | input 4860, output 1188, total 6048
+[2026.02.14 19:42] OpenAi Request | gpt-4.1-mini | input 4474, output 1335, total 5809
+[2026.02.14 19:43] OpenAi Request | gpt-4.1-mini | input 4410, output 1335, total 5745
+[2026.02.14 19:44] OpenAi Request | gpt-4.1-mini | input 4672, output 1293, total 5965
+[2026.02.14 19:44] OpenAi Request | gpt-4.1-mini | input 4673, output 1178, total 5851
+[2026.02.14 19:45] OpenAi Request | gpt-4.1-mini | input 4752, output 869, total 5621
+[2026.02.14 19:46] OpenAi Request | gpt-4.1-mini | input 4536, output 1330, total 5866
+[2026.02.14 19:46] OpenAi Request | gpt-4.1-mini | input 4676, output 1463, total 6139
+[2026.02.14 19:47] OpenAi Request | gpt-4.1-mini | input 4676, output 1412, total 6088
+[2026.02.14 19:47] OpenAi Request | gpt-4.1-mini | input 4717, output 1385, total 6102
+[2026.02.14 19:48] OpenAi Request | gpt-4.1-mini | input 4577, output 1748, total 6325
+[2026.02.14 19:49] OpenAi Request | gpt-4.1-mini | input 4724, output 1245, total 5969
+[2026.02.14 19:50] OpenAi Request | gpt-4.1-mini | input 4724, output 1341, total 6065
+[2026.02.14 19:50] OpenAi Request | gpt-4.1-mini | input 4614, output 1543, total 6157
+[2026.02.14 19:51] OpenAi Request | gpt-4.1-mini | input 4713, output 1633, total 6346
+[2026.02.14 19:52] OpenAi Request | gpt-4.1-mini | input 4674, output 1405, total 6079
+[2026.02.14 19:52] OpenAi Request | gpt-4.1-mini | input 4752, output 1607, total 6359
+[2026.02.14 19:53] OpenAi Request | gpt-4.1-mini | input 4715, output 1310, total 6025
+[2026.02.14 19:54] OpenAi Request | gpt-4.1-mini | input 4690, output 1517, total 6207
+[2026.02.14 19:54] OpenAi Request | gpt-4.1-mini | input 4715, output 1273, total 5988
+[2026.02.14 19:55] OpenAi Request | gpt-4.1-mini | input 4748, output 1891, total 6639
+[2026.02.14 19:56] OpenAi Request | gpt-4.1-mini | input 4631, output 1222, total 5853
+[2026.02.14 19:57] OpenAi Request | gpt-4.1-mini | input 4836, output 1511, total 6347
+[2026.02.14 19:57] OpenAi Request | gpt-4.1-mini | input 4801, output 1540, total 6341
+[2026.02.14 19:58] OpenAi Request | gpt-4.1-mini | input 4827, output 1424, total 6251
+[2026.02.14 19:59] OpenAi Request | gpt-4.1-mini | input 4914, output 1394, total 6308
+[2026.02.14 19:59] OpenAi Request | gpt-4.1-mini | input 4821, output 1722, total 6543
+[2026.02.14 20:00] OpenAi Request | gpt-4.1-mini | input 4737, output 1055, total 5792
+[2026.02.14 20:01] OpenAi Request | gpt-4.1-mini | input 4925, output 1415, total 6340
+[2026.02.14 20:01] OpenAi Request | gpt-4.1-mini | input 4952, output 1167, total 6119
+[2026.02.14 20:02] OpenAi Request | gpt-4.1-mini | input 4623, output 1179, total 5802
+[2026.02.14 20:03] OpenAi Request | gpt-4.1-mini | input 4786, output 1407, total 6193
+[2026.02.14 20:03] OpenAi Request | gpt-4.1-mini | input 4765, output 1456, total 6221
+[2026.02.14 20:04] OpenAi Request | gpt-4.1-mini | input 4963, output 1428, total 6391
+[2026.02.14 20:05] OpenAi Request | gpt-4.1-mini | input 4830, output 1296, total 6126
+[2026.02.14 20:05] OpenAi Request | gpt-4.1-mini | input 4785, output 1557, total 6342
+[2026.02.14 20:06] OpenAi Request | gpt-4.1-mini | input 4759, output 1461, total 6220
+[2026.02.14 20:07] OpenAi Request | gpt-4.1-mini | input 4709, output 1608, total 6317
+[2026.02.14 20:07] OpenAi Request | gpt-4.1-mini | input 4808, output 1634, total 6442
+[2026.02.14 20:08] OpenAi Request | gpt-4.1-mini | input 4811, output 1588, total 6399
+[2026.02.14 20:09] OpenAi Request | gpt-4.1-mini | input 4711, output 1174, total 5885
+[2026.02.14 20:09] OpenAi Request | gpt-4.1-mini | input 4571, output 1565, total 6136
+[2026.02.14 20:10] OpenAi Request | gpt-4.1-mini | input 4768, output 1303, total 6071
+[2026.02.14 20:11] OpenAi Request | gpt-4.1-mini | input 4804, output 1777, total 6581
+[2026.02.14 20:12] OpenAi Request | gpt-4.1-mini | input 4729, output 1524, total 6253
+[2026.02.14 20:12] OpenAi Request | gpt-4.1-mini | input 4802, output 1471, total 6273
+[2026.02.14 20:13] OpenAi Request | gpt-4.1-mini | input 4879, output 1164, total 6043
+[2026.02.14 20:13] OpenAi Request | gpt-4.1-mini | input 4958, output 1440, total 6398
+[2026.02.14 20:14] OpenAi Request | gpt-4.1-mini | input 5147, output 1514, total 6661
+[2026.02.14 20:15] OpenAi Request | gpt-4.1-mini | input 5181, output 1516, total 6697
+[2026.02.14 20:16] OpenAi Request | gpt-4.1-mini | input 5239, output 2267, total 7506
+[2026.02.14 20:16] OpenAi Request | gpt-4.1-mini | input 5057, output 938, total 5995
+[2026.02.14 20:17] OpenAi Request | gpt-4.1-mini | input 5163, output 959, total 6122
+[2026.02.14 20:17] OpenAi Request | gpt-4.1-mini | input 4944, output 1208, total 6152
+[2026.02.14 20:18] OpenAi Request | gpt-4.1-mini | input 4877, output 1438, total 6315
+[2026.02.14 20:19] OpenAi Request | gpt-4.1-mini | input 4854, output 1027, total 5881
+[2026.02.14 20:19] OpenAi Request | gpt-4.1-mini | input 4895, output 1985, total 6880
+[2026.02.14 20:20] OpenAi Request | gpt-4.1-mini | input 5064, output 1462, total 6526
+[2026.02.14 20:21] OpenAi Request | gpt-4.1-mini | input 4831, output 1418, total 6249
+[2026.02.14 20:21] OpenAi Request | gpt-4.1-mini | input 4969, output 1200, total 6169
+[2026.02.14 20:22] OpenAi Request | gpt-4.1-mini | input 4943, output 1323, total 6266
+[2026.02.14 20:22] OpenAi Request | gpt-4.1-mini | input 4964, output 1446, total 6410
+[2026.02.14 20:23] OpenAi Request | gpt-4.1-mini | input 4897, output 1453, total 6350
+[2026.02.14 20:24] OpenAi Request | gpt-4.1-mini | input 4877, output 1487, total 6364
+[2026.02.14 20:24] OpenAi Request | gpt-4.1-mini | input 4833, output 1411, total 6244
+[2026.02.14 20:25] OpenAi Request | gpt-4.1-mini | input 4930, output 1038, total 5968
+[2026.02.14 20:26] OpenAi Request | gpt-4.1-mini | input 4922, output 1118, total 6040
+[2026.02.14 20:26] OpenAi Request | gpt-4.1-mini | input 4765, output 1172, total 5937
+[2026.02.14 20:27] OpenAi Request | gpt-4.1-mini | input 4928, output 1053, total 5981
+[2026.02.14 20:27] OpenAi Request | gpt-4.1-mini | input 4905, output 1587, total 6492
+[2026.02.14 20:28] OpenAi Request | gpt-4.1-mini | input 4914, output 1326, total 6240
+[2026.02.14 20:29] OpenAi Request | gpt-4.1-mini | input 4874, output 1614, total 6488
+[2026.02.14 20:30] OpenAi Request | gpt-4.1-mini | input 4662, output 1010, total 5672
+[2026.02.14 20:30] OpenAi Request | gpt-4.1-mini | input 4988, output 1325, total 6313
+[2026.02.14 20:31] OpenAi Request | gpt-4.1-mini | input 4832, output 1126, total 5958
+[2026.02.14 20:32] OpenAi Request | gpt-4.1-mini | input 4811, output 1381, total 6192
+[2026.02.14 20:32] OpenAi Request | gpt-4.1-mini | input 4892, output 1622, total 6514
+[2026.02.14 20:33] OpenAi Request | gpt-4.1-mini | input 4679, output 1109, total 5788
+[2026.02.14 20:34] OpenAi Request | gpt-4.1-mini | input 4836, output 1248, total 6084
+[2026.02.14 20:34] OpenAi Request | gpt-4.1-mini | input 4549, output 1008, total 5557
+[2026.02.14 20:35] OpenAi Request | gpt-4.1-mini | input 4859, output 1211, total 6070
+[2026.02.14 20:36] OpenAi Request | gpt-4.1-mini | input 4724, output 778, total 5502
+[2026.02.14 20:37] OpenAi Request | gpt-4.1-mini | input 4845, output 1435, total 6280
+[2026.02.14 20:37] OpenAi Request | gpt-4.1-mini | input 5044, output 1354, total 6398
+[2026.02.14 20:38] OpenAi Request | gpt-4.1-mini | input 4916, output 1206, total 6122
+
+[2026.02.16 21:18] OpenAi Request | gpt-4.1 | input 4047, output 301, total 4348
+[2026.02.16 21:18] OpenAi Request | gpt-4.1 | input 2569, output 251, total 2820
+[2026.02.16 21:19] OpenAi Request | gpt-4.1 | input 2745, output 421, total 3166
+[2026.02.16 21:19] OpenAi Request | gpt-4.1 | input 1838, output 241, total 2079
+[2026.02.16 21:19] OpenAi Request | gpt-4.1 | input 2038, output 236, total 2274
+[2026.02.16 21:19] OpenAi Request | gpt-4.1 | input 2766, output 363, total 3129
+[2026.02.16 21:19] OpenAi Request | gpt-4.1 | input 3015, output 444, total 3459
+[2026.02.16 21:20] OpenAi Request | gpt-4.1 | input 2394, output 275, total 2669
+[2026.02.16 21:20] OpenAi Request | gpt-4.1 | input 1575, output 141, total 1716
+[2026.02.16 21:20] OpenAi Request | gpt-4.1 | input 2293, output 350, total 2643
+
+[2026.03.24 19:55] OpenAi Request | gpt-4.1 | input 4147, output 1121, total 5268
+[2026.03.24 19:55] OpenAi Request | gpt-4.1 | input 2669, output 564, total 3233
+[2026.03.24 19:56] OpenAi Request | gpt-4.1 | input 2845, output 684, total 3529
+[2026.03.24 19:56] OpenAi Request | gpt-4.1 | input 1938, output 430, total 2368
+[2026.03.24 19:56] OpenAi Request | gpt-4.1 | input 2138, output 414, total 2552
+[2026.03.24 19:56] OpenAi Request | gpt-4.1 | input 2866, output 408, total 3274
+[2026.03.24 19:56] OpenAi Request | gpt-4.1 | input 3115, output 835, total 3950
+[2026.03.24 19:57] OpenAi Request | gpt-4.1 | input 2494, output 413, total 2907
+[2026.03.24 19:57] OpenAi Request | gpt-4.1 | input 1675, output 281, total 1956
+[2026.03.24 19:57] OpenAi Request | gpt-4.1 | input 2393, output 558, total 2951
+[2026.03.24 20:52] OpenAi Request | gpt-4.1 | input 4131, output 438, total 4569
+[2026.03.24 20:53] OpenAi Request | gpt-4.1 | input 2653, output 390, total 3043
+[2026.03.24 20:53] OpenAi Request | gpt-4.1 | input 2829, output 357, total 3186
+[2026.03.24 20:53] OpenAi Request | gpt-4.1 | input 1922, output 239, total 2161
+[2026.03.24 20:53] OpenAi Request | gpt-4.1 | input 2122, output 233, total 2355
+[2026.03.24 20:55] OpenAi Request | gpt-4.1 | input 4058, output 435, total 4493
+[2026.03.24 20:55] OpenAi Request | gpt-4.1 | input 2580, output 238, total 2818
+[2026.03.24 20:55] OpenAi Request | gpt-4.1 | input 2756, output 424, total 3180
+[2026.03.24 20:55] OpenAi Request | gpt-4.1 | input 1849, output 221, total 2070
+[2026.03.24 20:55] OpenAi Request | gpt-4.1 | input 2049, output 220, total 2269
+
+[2026.03.24 21:04] OpenAi Request | gpt-4.1 | input 10724, output 988, total 11712
+[2026.03.24 21:04] OpenAi Request | gpt-4.1 | input 9530, output 983, total 10513
+[2026.03.24 21:04] OpenAi Request | gpt-4.1 | input 6913, output 753, total 7666
+[2026.03.24 21:05] OpenAi Request | gpt-4.1 | input 5386, output 905, total 6291
+[2026.03.24 21:05] OpenAi Request | gpt-4.1 | input 5397, output 930, total 6327
+[2026.03.24 21:06] OpenAi Request | gpt-4.1 | input 5431, output 920, total 6351
+[2026.03.24 21:06] OpenAi Request | gpt-4.1 | input 5911, output 1207, total 7118
+[2026.03.24 21:07] OpenAi Request | gpt-4.1 | input 6143, output 1357, total 7500
+[2026.03.24 21:07] OpenAi Request | gpt-4.1 | input 4388, output 885, total 5273
+[2026.03.24 21:07] OpenAi Request | gpt-4.1 | input 5379, output 935, total 6314
+[2026.03.24 21:08] OpenAi Request | gpt-4.1 | input 5572, output 1181, total 6753
+[2026.03.24 21:08] OpenAi Request | gpt-4.1 | input 4405, output 908, total 5313
+[2026.03.24 21:09] OpenAi Request | gpt-4.1 | input 4486, output 1001, total 5487
+[2026.03.24 21:09] OpenAi Request | gpt-4.1 | input 3938, output 869, total 4807
+[2026.03.24 21:10] OpenAi Request | gpt-4.1 | input 4365, output 912, total 5277
+[2026.03.24 21:10] OpenAi Request | gpt-4.1 | input 4241, output 908, total 5149
+[2026.03.24 21:10] OpenAi Request | gpt-4.1 | input 4161, output 562, total 4723
+[2026.03.24 21:11] OpenAi Request | gpt-4.1 | input 4405, output 837, total 5242
+[2026.03.24 21:11] OpenAi Request | gpt-4.1 | input 3382, output 681, total 4063
+[2026.03.24 21:11] OpenAi Request | gpt-4.1 | input 4802, output 1191, total 5993
