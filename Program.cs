@@ -29,6 +29,18 @@ app.MapGet("/ParseDictionary", async (AiService aiService) => {
 });
 
 
+app.MapGet("/ParseDictionaryRuOzhegov", async (AiService aiService) => {
+	try {
+		var dictionaryParser = new DictionaryParser(aiService);
+		var result = await dictionaryParser.ParseDictRuOzhegovAsync();
+		return Results.Ok(new {result});
+	}
+	catch (Exception ex){
+		return Results.BadRequest(ex.Message);
+	}
+});
+
+
 app.MapGet("/CombineDictionary", async (AiService aiService) => {
 	try {
 		var dictionaryParser = new DictionaryParser(aiService);

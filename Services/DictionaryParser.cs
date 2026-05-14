@@ -29,9 +29,9 @@ class DictionaryParser {
 
 	public async Task CombineDocumentPagesAsync() {
 		int startPage = 0;
-		int endPage = 736;
-		string pageFilePathTemplate = "Resources/2.Processed/DictionaryRuBgChukalovPages/DictionaryRuBgProcessed{pageNumber}.txt";
-		string combinedFilePath = "Resources/2.Processed/DictionaryRuBgChukalovProcessed.txt";
+		int endPage = 901;
+		string pageFilePathTemplate = "Resources/Processed/DictExplRuOzhegovPages/DictExplRuOzhegov{pageNumber}.txt";
+		string combinedFilePath = "Resources/Processed/DictExplRuOzhegovProcessed.txt";
 		await File.WriteAllTextAsync(combinedFilePath, "");
 		using StreamWriter streamWriter = File.AppendText(combinedFilePath);
 		for (int pageNumber = startPage; pageNumber <= endPage; pageNumber++) {
@@ -109,26 +109,66 @@ class DictionaryParser {
 		);
 		return "Ok";
 	}
+	
+
+	public async Task<string> ParseDictRuOzhegovAsync() {
+		int startPage = 601;
+		int endPage = 1000;
+		int pageSizeLines = 50;
+		int overlapping = 5;
+		int delay = 30 * 1000;
+		string documentPath = "Resources/Raw/DictExplRuOzhegov.txt";
+		string prompt = File.ReadAllText("Resources/Prompts/ParseDictRuOzhegovPage.txt");
+
+		var pageNumbers = new HashSet<int>(Enumerable.Range(startPage, endPage - startPage + 1));
+		List<string> pages = await GetDocumentPagesAsync(documentPath, pageSizeLines, overlapping);
+
+		for (int pageNumber = 0; pageNumber < pages.Count; pageNumber++) {
+			if (!pageNumbers.Contains(pageNumber))
+				continue;
+			string page = pages[pageNumber];
+			var pageParseRequest = new ParsePageRequest {
+				Prompt = prompt,
+				DocumentPage = page
+			};
+			string aiResponse = await _aiService.CompleteChatWithOpenAiAsync(pageParseRequest.ToJson());
+			File.WriteAllText(
+				$"Resources/Processed/DictExplRuOzhegovPages/DictExplRuOzhegov{pageNumber}.txt", 
+				aiResponse
+			);
+			await Task.Delay(delay);
+		}
+		return "Ok";
+	}
 
 
 	public async Task CreateDictionaryRuBgFrequencyPagesAsync() {
 		string dictionaryRuFrequencyPath = "Resources/Raw/DictionaryRuFrequency30000.txt";
 		string dictionaryRuBgPath = "Resources/Processed/DictionaryRuBgChukalovProcessed.txt";
-		string outputPagePathTemplate = "Resources/Processed/DictionaryRuBgFrequencyPages/{pageNumber}.txt";
+		string dictExplRuPath = "Resources/Processed/DictExplRuOzhegovProcessed.txt";
 		string promptPath = "Resources/Prompts/CreateDictionaryRuBgFrequencyPage.txt";
-		int startPageNumber = 0;
-		int endPageNumber = 19;
+		string outputPagePathTemplate = "Resources/Processed/DictionaryRuBgFrequencyPages/{pageNumber}.txt";
+		int startPageNumber = 200;
+		int endPageNumber = 1000;
 		int linesOnPage = 50;
-		int delay = 10 * 1000;
+		int delay = 5 * 1000;
 
 		List<string> dictionaryRuFrequencyPages = await GetDocumentPagesAsync(dictionaryRuFrequencyPath, linesOnPage, overlapping: 0);
 		
 		string[] dictionaryRuBgLines = await File.ReadAllLinesAsync(dictionaryRuBgPath);
 		var dictionaryRuBgLinesTable = new Dictionary<string, string>();
 		foreach (string line in dictionaryRuBgLines) {
-			string keyWord = line.Split(' ').First();
+			string keyWord = line.Split(' ').First().Trim();
 			dictionaryRuBgLinesTable.TryAdd(keyWord, "");
 			dictionaryRuBgLinesTable[keyWord] += line + "\n";
+		}
+		
+		string[] dictExplRuLines = await File.ReadAllLinesAsync(dictExplRuPath);
+		var dictExplRuLinesTable = new Dictionary<string, string>();
+		foreach (string line in dictExplRuLines) {
+			string keyWord = line.Split('|').First().Trim();
+			dictExplRuLinesTable.TryAdd(keyWord, "");
+			dictExplRuLinesTable[keyWord] += line + "\n";
 		}
 
 		string prompt = await File.ReadAllTextAsync(promptPath);
@@ -140,10 +180,18 @@ class DictionaryParser {
 				.Split("\n")
 				.Select(line => line.Split(' ')[2])
 				.Select(word => dictionaryRuBgLinesTable.GetValueOrDefault(word, ""))
+				.Distinct()
+				.Aggregate((prev, next) => $"{prev}\n{next}");
+			string dictExplRuPage = dictionaryRuFrequencyPage
+				.Split("\n")
+				.Select(line => line.Split(' ')[2])
+				.Select(word => dictExplRuLinesTable.GetValueOrDefault(word, ""))
+				.Distinct()
 				.Aggregate((prev, next) => $"{prev}\n{next}");
 			var request = new {
 				Instructions = prompt,
-				WordsRu = dictionaryRuFrequencyPage,
+				DictionaryFrequencyRu = dictionaryRuFrequencyPage,
+				DictionaryExplanatoryRu = dictExplRuPage,
 				DictionaryRuBg = dictionaryRuBgPage
 			};
 			string serializedRequest = RelaxedSerializer.SerializeToJson(request);
