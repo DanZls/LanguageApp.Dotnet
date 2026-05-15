@@ -53,10 +53,31 @@ app.MapGet("/CombineDictionary", async (AiService aiService) => {
 });
 
 
-app.MapGet("/CreateDictionaryRuBgFrequencyPages", async (AiService aiService) => {
+app.MapGet("/CreateDictionaryRuBgFrequencyPages", async (
+	AiService aiService,
+	string? pageNumbers,
+	int? pageNumber,
+	int? startPageNumber,
+	int? endPageNumber
+) => {
 	try {
 		var dictionaryParser = new DictionaryParser(aiService);
-		await dictionaryParser.CreateDictionaryRuBgFrequencyPagesAsync();
+		IEnumerable<int>? parsedPageNumbers = null;
+		if (!string.IsNullOrWhiteSpace(pageNumbers)) {
+			parsedPageNumbers = pageNumbers
+				.Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries)
+				.Select(int.Parse)
+				.Distinct()
+				.OrderBy(n => n)
+				.ToArray();
+		}
+
+		await dictionaryParser.CreateDictionaryRuBgFrequencyPagesAsync(
+			pageNumber: pageNumber,
+			pageNumbers: parsedPageNumbers,
+			startPageNumber: startPageNumber ?? 200,
+			endPageNumber: endPageNumber ?? 1000
+		);
 		return Results.Ok();
 	}
 	catch (Exception ex){

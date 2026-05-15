@@ -142,14 +142,17 @@ class DictionaryParser {
 	}
 
 
-	public async Task CreateDictionaryRuBgFrequencyPagesAsync() {
+	public async Task CreateDictionaryRuBgFrequencyPagesAsync(
+		int? pageNumber = null,
+		IEnumerable<int>? pageNumbers = null,
+		int startPageNumber = 200,
+		int endPageNumber = 1000
+	) {
 		string dictionaryRuFrequencyPath = "Resources/Raw/DictionaryRuFrequency30000.txt";
 		string dictionaryRuBgPath = "Resources/Processed/DictionaryRuBgChukalovProcessed.txt";
 		string dictExplRuPath = "Resources/Processed/DictExplRuOzhegovProcessed.txt";
 		string promptPath = "Resources/Prompts/CreateDictionaryRuBgFrequencyPage.txt";
 		string outputPagePathTemplate = "Resources/Processed/DictionaryRuBgFrequencyPages/{pageNumber}.txt";
-		int startPageNumber = 200;
-		int endPageNumber = 1000;
 		int linesOnPage = 50;
 		int delay = 5 * 1000;
 
@@ -172,10 +175,23 @@ class DictionaryParser {
 		}
 
 		string prompt = await File.ReadAllTextAsync(promptPath);
-		for (int pageNumber = 0; pageNumber < dictionaryRuFrequencyPages.Count; pageNumber++) {
-			if (pageNumber < startPageNumber || pageNumber > endPageNumber)
+
+		IEnumerable<int> targetPageNumbers;
+		if (pageNumber.HasValue) {
+			targetPageNumbers = [pageNumber.Value];
+		}
+		else if (pageNumbers != null && pageNumbers.Any()) {
+			targetPageNumbers = pageNumbers.Distinct().OrderBy(n => n);
+		}
+		else {
+			targetPageNumbers = Enumerable.Range(startPageNumber, endPageNumber - startPageNumber + 1);
+		}
+
+		foreach (int targetPageNumber in targetPageNumbers) {
+			if (targetPageNumber < 0 || targetPageNumber >= dictionaryRuFrequencyPages.Count)
 				continue;
-			string dictionaryRuFrequencyPage = dictionaryRuFrequencyPages[pageNumber];
+
+			string dictionaryRuFrequencyPage = dictionaryRuFrequencyPages[targetPageNumber];
 			string dictionaryRuBgPage = dictionaryRuFrequencyPage
 				.Split("\n")
 				.Select(line => line.Split(' ')[2])
@@ -196,7 +212,7 @@ class DictionaryParser {
 			};
 			string serializedRequest = RelaxedSerializer.SerializeToJson(request);
 			string aiResponse = await _aiService.CompleteChatWithOpenAiAsync(serializedRequest);
-			string outputPagePath = outputPagePathTemplate.Replace("{pageNumber}", pageNumber.ToString());
+			string outputPagePath = outputPagePathTemplate.Replace("{pageNumber}", targetPageNumber.ToString());
 			File.WriteAllText(outputPagePath, aiResponse);
 			await Task.Delay(delay);
 		}
