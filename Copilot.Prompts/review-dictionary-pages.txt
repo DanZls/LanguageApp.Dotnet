@@ -1,0 +1,16 @@
+
+Resources\Processed\DictionaryRuBgFrequencyPages contains page files with ru-bg translations.
+The translations look like "[word index number]|[word in russian]|[word meaning]|[word in bulgarian]|[linguistic tags]" 
+with [linguistic tags] related to [word in bulgarian]. 
+However, the translations contain errors: incorrect linguistic tags, missing parts of 4 expected in each line, 
+wrong symbols, mistakes in translations etc. 
+Please perform the following procedure for pages 0-50:
+- read page files completely and check them for mistakes, fix any mistakes found
+- process the files in batches of 5
+- analyze files in a batch together, but edit each file separately to avoid hitting the output length limit
+- after each batch, output to the end of log.txt the lines changed in each file of the batch as "[old line]-[new line]"
+- move to the next batch only when the work with the current one is completed
+
+Notes:
+- do not use any scripts for this job, do the work yourself with your own knowledge
+- adjectives are masculine by default, so it is not mentioned explicitly - this is not a mistake
