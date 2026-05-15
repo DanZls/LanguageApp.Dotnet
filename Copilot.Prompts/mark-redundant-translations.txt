@@ -1,0 +1,18 @@
+Resources\Processed\DictionaryRuBgFrequencyPages contains page files with ru-bg translations. The translations look like "[word index number]|[word in russian]|[word meaning]|[word in bulgarian]|[linguistic tags]" with [linguistic tags] related to [word in bulgarian].
+This data is prepared for a language learning app.
+However, some of the translations may be irrelevant to the learning purpose: 
+- names and surnames of people
+- archaic and unused words
+- abbreviations irrelevant to other languages
+- words related to russia and ussr (i.e. "рубль",  "компартия")
+- swearing and dirty speech
+Also, several different problems may be present at once.
+
+Please perform the following procedure for pages 0-100:
+- process the files in batches of 5
+- read page files fully and check them for the problems
+- after analysis of a batch, output to the end of log.txt the indices of violating translations with the concise exact reason in "()" parentheses for each file
+- move to the next batch only when the work with the current one is completed
+
+Notes:
+- do not use any scripts for this job, do the work yourself with your own knowledge
