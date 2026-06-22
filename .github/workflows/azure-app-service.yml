@@ -21,13 +21,13 @@ jobs:
           dotnet-version: '10.0.x'
 
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore ./LanguageApp.Dotnet/LanguageApp.Dotnet.csproj
 
       - name: Build
-        run: dotnet build --configuration Release --no-restore
+        run: dotnet build ./LanguageApp.Dotnet/LanguageApp.Dotnet.csproj --configuration Release --no-restore
 
       - name: Publish
-        run: dotnet publish --configuration Release --no-build --output ./publish
+        run: dotnet publish ./LanguageApp.Dotnet/LanguageApp.Dotnet.csproj --configuration Release --no-build --output ./publish
 
       - name: Upload artifact for deployment jobs
         uses: actions/upload-artifact@v4
