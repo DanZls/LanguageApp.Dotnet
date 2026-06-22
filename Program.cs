@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddHealthChecks();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddSingleton<AiService>();
@@ -15,6 +16,9 @@ if (app.Environment.IsDevelopment())
 	app.UseSwagger();
 	app.UseSwaggerUI();
 }
+
+
+app.MapHealthChecks("/health");
 
 
 app.MapGet("/ParseDictionary", async (AiService aiService) => {
