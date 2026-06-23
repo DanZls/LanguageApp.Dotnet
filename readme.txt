@@ -1,4 +1,4 @@
-winget install Microsoft.DotNet.SDK.8
+winget install Microsoft.DotNet.SDK.10
 
 dotnet restore
 dotnet run
