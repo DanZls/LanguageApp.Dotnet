@@ -1,0 +1,11 @@
+Process files 0-9 in Resources\Processed\DictionaryRuBgFrequencyPages:
+- the files contain translations from russian to bulgarian language with index number and explanation
+- for each file, create a file with the same name, but in directory Resources\Processed\DictionaryRuDeFrequencyPages
+- for each ru-bg translation in the file, create a similar ru-de (russian-german) translation and add them to the created file
+- your created translation lines must consist of: index (as the original), russian word (in russian), meaning (in russian), translation to german (in german), linguistic tags useful for word conjugation (in english)
+- if a word has several translations, pick only one of them, the most used (and relevant to the meaning)
+- separate tags with ";" only, do not add extra symbols such as "+", "()"
+- the tags must be related to the translation (German) word
+- change the original meaning explanations to make them concise, professional and avoid intellectual property infringement
+- check an already existing file in the output directory as an example
+- process files one by one, do not start reading the next file until the work with the previous is completed
