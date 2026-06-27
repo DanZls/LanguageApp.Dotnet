@@ -1,5 +1,3 @@
-using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +11,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 );
 
 builder.Services.AddSingleton<AiService>();
+builder.Services.AddSingleton<PronunciationProviderService>();
+builder.Services.AddSingleton<AzureTextToSpeechService>();
 
 var app = builder.Build();
 
@@ -28,37 +28,39 @@ app.MapHealthChecks("/health");
 
 app.MapGet("/test-db", async (AppDbContext db) =>
 {
-	try
-    {
-        var canConnect = await db.Database.CanConnectAsync();
-        var result = await db.Database
-            .SqlQueryRaw<string>("SELECT SYSTEM_USER")
-            .ToListAsync();
+	try	{
+		var canConnect = await db.Database.CanConnectAsync();
+		var result = await db.Database
+			.SqlQueryRaw<string>("SELECT SYSTEM_USER")
+			.ToListAsync();
+		return Results.Ok(new {
+			Status = "✅ Connected",
+			LoggedInAs = result.FirstOrDefault(),
+			Database = db.Database.GetDbConnection().Database
+		});
+	}
+	catch (Exception ex) {
+		return Results.BadRequest(ExceptionService.GetExceptionDetails(ex));
+	}
+});
 
-        return Results.Ok(new {
-            Status = "✅ Connected",
-            LoggedInAs = result.FirstOrDefault(),
-            Database = db.Database.GetDbConnection().Database
-        });
-    }
-    catch (Exception ex)
-    {
-        // Walk the full exception chain
-        var messages = new List<string>();
-        var current = ex;
-        while (current != null)
-        {
-            messages.Add($"{current.GetType().Name}: {current.Message}");
-            current = current.InnerException;
-        }
-        return Results.Json(new { Errors = messages }, statusCode: 500);
-    }
+
+app.MapGet("/generate-pronunciations-audio", async (
+	PronunciationProviderService pronunciationProviderService
+) => {
+	try {
+		await pronunciationProviderService.SaveGermanPronunciations();
+		return Results.Ok(new { saved = true });
+	}
+	catch (Exception ex) {
+		return Results.BadRequest(ExceptionService.GetExceptionDetails(ex));
+	}
 });
 
 
 app.MapGet("/ParseDictionary", async (AiService aiService) => {
 	try {
-		var dictionaryParser = new DictionaryParser(aiService);
+		var dictionaryParser = new DictionaryParserService(aiService);
 		var result = await dictionaryParser.ParseDictionaryRuUshakovAsync();
 		return Results.Ok(new {result});
 	}
@@ -70,7 +72,7 @@ app.MapGet("/ParseDictionary", async (AiService aiService) => {
 
 app.MapGet("/ParseDictionaryRuOzhegov", async (AiService aiService) => {
 	try {
-		var dictionaryParser = new DictionaryParser(aiService);
+		var dictionaryParser = new DictionaryParserService(aiService);
 		var result = await dictionaryParser.ParseDictRuOzhegovAsync();
 		return Results.Ok(new {result});
 	}
@@ -82,7 +84,7 @@ app.MapGet("/ParseDictionaryRuOzhegov", async (AiService aiService) => {
 
 app.MapGet("/CombineDictionary", async (AiService aiService) => {
 	try {
-		var dictionaryParser = new DictionaryParser(aiService);
+		var dictionaryParser = new DictionaryParserService(aiService);
 		await dictionaryParser.CombineDocumentPagesAsync();
 		return Results.Ok();
 	}
@@ -100,7 +102,7 @@ app.MapGet("/CreateDictionaryRuBgFrequencyPages", async (
 	int? endPageNumber
 ) => {
 	try {
-		var dictionaryParser = new DictionaryParser(aiService);
+		var dictionaryParser = new DictionaryParserService(aiService);
 		IEnumerable<int>? parsedPageNumbers = null;
 		if (!string.IsNullOrWhiteSpace(pageNumbers)) {
 			parsedPageNumbers = pageNumbers
