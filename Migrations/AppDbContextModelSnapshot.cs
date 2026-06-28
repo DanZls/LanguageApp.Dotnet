@@ -23,10 +23,7 @@ namespace LanguageApp.Dotnet.Migrations
             modelBuilder.Entity("Translation", b =>
                 {
                     b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("bigint");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
                     b.Property<string>("Term")
                         .IsRequired()

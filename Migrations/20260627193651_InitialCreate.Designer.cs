@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LanguageApp.Dotnet.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260627174934_AddDictionaryRuDe")]
-    partial class AddDictionaryRuDe
+    [Migration("20260627193651_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -26,10 +26,7 @@ namespace LanguageApp.Dotnet.Migrations
             modelBuilder.Entity("Translation", b =>
                 {
                     b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("bigint");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
                     b.Property<string>("Term")
                         .IsRequired()

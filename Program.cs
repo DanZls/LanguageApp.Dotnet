@@ -13,6 +13,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddSingleton<AiService>();
 builder.Services.AddSingleton<PronunciationProviderService>();
 builder.Services.AddSingleton<AzureTextToSpeechService>();
+builder.Services.AddScoped<AzureSqlDatabaseService>();
 
 var app = builder.Build();
 
@@ -38,6 +39,18 @@ app.MapGet("/test-db", async (AppDbContext db) =>
 			LoggedInAs = result.FirstOrDefault(),
 			Database = db.Database.GetDbConnection().Database
 		});
+	}
+	catch (Exception ex) {
+		return Results.BadRequest(ExceptionService.GetExceptionDetails(ex));
+	}
+});
+
+
+app.MapGet("/add-to-db-tables", async (AzureSqlDatabaseService dbService) =>
+{
+	try	{
+		await dbService.AddDictionaryRuDeTranslations();
+		return Results.Ok();
 	}
 	catch (Exception ex) {
 		return Results.BadRequest(ExceptionService.GetExceptionDetails(ex));
