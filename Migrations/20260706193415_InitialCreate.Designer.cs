@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -9,9 +10,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LanguageApp.Dotnet.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260706193415_InitialCreate")]
+    partial class InitialCreate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -95,10 +98,6 @@ namespace LanguageApp.Dotnet.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("TranslationId");
-
-                    b.HasIndex("UserId");
-
                     b.ToTable("TranslationLearningInfoTable");
                 });
 
@@ -117,35 +116,6 @@ namespace LanguageApp.Dotnet.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
-                });
-
-            modelBuilder.Entity("TranslationLearningInfo", b =>
-                {
-                    b.HasOne("Translation", "Translation")
-                        .WithMany("TranslationLearningInfos")
-                        .HasForeignKey("TranslationId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("User", "User")
-                        .WithMany("TranslationLearningInfos")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Translation");
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("Translation", b =>
-                {
-                    b.Navigation("TranslationLearningInfos");
-                });
-
-            modelBuilder.Entity("User", b =>
-                {
-                    b.Navigation("TranslationLearningInfos");
                 });
 #pragma warning restore 612, 618
         }
