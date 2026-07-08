@@ -1,9 +1,3 @@
-# Local container run
-
-docker compose up --build   # start
-docker compose down         # stop & remove
-
-
 # Database update
 
 az login
