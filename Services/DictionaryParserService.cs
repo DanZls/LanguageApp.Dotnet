@@ -20,7 +20,7 @@ class DictionaryParserService {
 				.Select(line => {
 					string[] splitLine = line.Split('|');
 					return new Translation {
-						Id = uint.Parse(splitLine[0]),
+						Id = int.Parse(splitLine[0]),
 						Term = splitLine[1],
 						TermMeaning = splitLine[2],
 						TermTranslation = splitLine[3],

@@ -4,7 +4,7 @@ using System.Text;
 public static class ExceptionService {
   public static string GetExceptionDetails(Exception ex) {
     var exceptionInfo = new StringBuilder();
-    exceptionInfo.AppendLine(ex.Message);
+    exceptionInfo.Append($"{ex.Message}\n");
     exceptionInfo.AppendLine("[Details]:");
     exceptionInfo.AppendLine($"{ex.GetType().FullName}");
     var stackTrace = new StackTrace(ex, fNeedFileInfo: true);

@@ -15,7 +15,21 @@ builder.Services.AddSingleton<PronunciationProviderService>();
 builder.Services.AddSingleton<AzureTextToSpeechService>();
 builder.Services.AddScoped<AzureSqlDatabaseService>();
 
+builder.Services.AddCors(options =>
+{
+	options.AddPolicy("FrontendDev", policy =>
+	{
+		policy
+			.WithOrigins(builder.Configuration["FrontendOrigin"]!)
+			.AllowAnyHeader()
+			.AllowAnyMethod();
+			// .AllowCredentials(); // for cookies/auth credentials
+	});
+});
+
 var app = builder.Build();
+
+app.UseCors("FrontendDev");
 
 if (app.Environment.IsDevelopment())
 {
@@ -27,18 +41,42 @@ if (app.Environment.IsDevelopment())
 app.MapHealthChecks("/health");
 
 
-app.MapGet("/test-db", async (AppDbContext db) =>
+app.MapGet("/api/get-next-translation", async (
+	AzureSqlDatabaseService dbService,
+	string userEmail,
+	string language1Tag,
+	string language2Tag
+) => {
+	try	{
+		TranslationDto result = await dbService.GetNextTranslation(userEmail, language1Tag, language2Tag);
+		return Results.Ok(result);
+	}
+	catch (Exception ex) {
+		return Results.BadRequest(new {error = ExceptionService.GetExceptionDetails(ex)});
+	}
+});
+
+
+app.MapPatch("/api/update-translation", async (
+	AzureSqlDatabaseService dbService,
+	TranslationUpdateDto translationUpdate
+) => {
+	try	{
+		await dbService.UpdateTranslation(translationUpdate);
+		return Results.Ok();
+	}
+	catch (Exception ex) {
+		return Results.BadRequest(new {error = ExceptionService.GetExceptionDetails(ex)});
+	}
+});
+
+
+app.MapGet("/api/add-user", async (AzureSqlDatabaseService dbService) =>
 {
 	try	{
-		var canConnect = await db.Database.CanConnectAsync();
-		var result = await db.Database
-			.SqlQueryRaw<string>("SELECT SYSTEM_USER")
-			.ToListAsync();
-		return Results.Ok(new {
-			Status = "✅ Connected",
-			LoggedInAs = result.FirstOrDefault(),
-			Database = db.Database.GetDbConnection().Database
-		});
+		await dbService.AddUser("dan.zloschastiev@gmail.com");
+		await dbService.AddUserTranslationLearningInfo("dan.zloschastiev@gmail.com", "ru", "de");
+		return Results.Ok();
 	}
 	catch (Exception ex) {
 		return Results.BadRequest(ExceptionService.GetExceptionDetails(ex));
@@ -46,7 +84,7 @@ app.MapGet("/test-db", async (AppDbContext db) =>
 });
 
 
-app.MapGet("/add-to-db-tables", async (AzureSqlDatabaseService dbService) =>
+app.MapGet("/tech/add-to-db-tables", async (AzureSqlDatabaseService dbService) =>
 {
 	try	{
 		await dbService.AddDictionaryRuDeTranslations();
@@ -58,7 +96,7 @@ app.MapGet("/add-to-db-tables", async (AzureSqlDatabaseService dbService) =>
 });
 
 
-app.MapGet("/generate-pronunciations-audio", async (
+app.MapGet("/tech/generate-pronunciations-audio", async (
 	PronunciationProviderService pronunciationProviderService
 ) => {
 	try {
@@ -71,7 +109,7 @@ app.MapGet("/generate-pronunciations-audio", async (
 });
 
 
-app.MapGet("/ParseDictionary", async (AiService aiService) => {
+app.MapGet("/tech/ParseDictionary", async (AiService aiService) => {
 	try {
 		var dictionaryParser = new DictionaryParserService(aiService);
 		var result = await dictionaryParser.ParseDictionaryRuUshakovAsync();
@@ -83,7 +121,7 @@ app.MapGet("/ParseDictionary", async (AiService aiService) => {
 });
 
 
-app.MapGet("/ParseDictionaryRuOzhegov", async (AiService aiService) => {
+app.MapGet("/tech/ParseDictionaryRuOzhegov", async (AiService aiService) => {
 	try {
 		var dictionaryParser = new DictionaryParserService(aiService);
 		var result = await dictionaryParser.ParseDictRuOzhegovAsync();
@@ -95,7 +133,7 @@ app.MapGet("/ParseDictionaryRuOzhegov", async (AiService aiService) => {
 });
 
 
-app.MapGet("/CombineDictionary", async (AiService aiService) => {
+app.MapGet("/tech/CombineDictionary", async (AiService aiService) => {
 	try {
 		var dictionaryParser = new DictionaryParserService(aiService);
 		await dictionaryParser.CombineDocumentPagesAsync();
@@ -107,7 +145,7 @@ app.MapGet("/CombineDictionary", async (AiService aiService) => {
 });
 
 
-app.MapGet("/CreateDictionaryRuBgFrequencyPages", async (
+app.MapGet("/tech/CreateDictionaryRuBgFrequencyPages", async (
 	AiService aiService,
 	string? pageNumbers,
 	int? pageNumber,
