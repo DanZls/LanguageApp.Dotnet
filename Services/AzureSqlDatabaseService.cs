@@ -19,20 +19,18 @@ public class AzureSqlDatabaseService(AppDbContext db)
 		string language1Tag,
 		string language2Tag
 	) {
-		int daysAfterFirstLearn = 1;
-		int daysAfterSecondLearn = 3;
+		int hoursAfterFirstLearn = 1*24 - 6;
+		int hoursAfterSecondLearn = 3*24 - 6;
 		int translationsQuantityLimit = 100;
 
 		DateTimeOffset now = DateTimeOffset.Now;
-		DateTimeOffset startOfToday = new DateTimeOffset(now.Year, now.Month, now.Day, 0, 0, 0, now.Offset);
 
 		TranslationDto[] translationDtos = _db.TranslationLearningInfoTable
 			.AsNoTracking()
-			.Where(tlInfo => tlInfo.ThirdLearnAt == null)
 			.Where(tlInfo => 
 				(tlInfo.FirstLearnAt == null) ||
-				(tlInfo.FirstLearnAt != null && tlInfo.FirstLearnAt.Value.AddDays(daysAfterFirstLearn) <= startOfToday) ||
-				(tlInfo.SecondLearnAt != null && tlInfo.SecondLearnAt.Value.AddDays(daysAfterSecondLearn) <= startOfToday)
+				(tlInfo.SecondLearnAt == null && tlInfo.FirstLearnAt != null && tlInfo.FirstLearnAt.Value.AddHours(hoursAfterFirstLearn) <= now) ||
+				(tlInfo.ThirdLearnAt == null && tlInfo.SecondLearnAt != null && tlInfo.SecondLearnAt.Value.AddHours(hoursAfterSecondLearn) <= now)
 			)
 			.Where(tlInfo => tlInfo.User.Email == userEmail)
 			.Where(tlInfo => tlInfo.Translation.Language1Tag == language1Tag)
