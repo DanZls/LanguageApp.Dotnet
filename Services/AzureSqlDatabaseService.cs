@@ -5,15 +5,6 @@ public class AzureSqlDatabaseService(AppDbContext db)
 	private readonly AppDbContext _db = db;
 
 
-  public async Task AddUser(string userEmail)
-	{
-		_db.Users.Add(new User {
-			Email = userEmail
-		});
-		await _db.SaveChangesAsync();
-	}
-
-
   public async Task<TranslationDto> GetNextTranslation(
 		string userEmail,
 		string language1Tag,
@@ -84,6 +75,15 @@ public class AzureSqlDatabaseService(AppDbContext db)
 			translationLearningInfo.Translation.IsSkipped = translationUpdate.IsTranslationSkipped.Value;
 		}
 
+		await _db.SaveChangesAsync();
+	}
+
+
+  public async Task AddUser(string userEmail)
+	{
+		_db.Users.Add(new User {
+			Email = userEmail
+		});
 		await _db.SaveChangesAsync();
 	}
 

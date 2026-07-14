@@ -7,7 +7,15 @@ builder.Services.AddHealthChecks();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-	options.UseSqlServer(builder.Configuration.GetConnectionString("LanguageAppDatabaseConnectionString"))
+	options.UseSqlServer(
+		builder.Configuration.GetConnectionString("LanguageAppDatabaseConnectionString"),
+		sqlOptions => sqlOptions
+			.EnableRetryOnFailure(
+				maxRetryCount: 12,
+				maxRetryDelay: TimeSpan.FromSeconds(10),
+				errorNumbersToAdd: null
+			)
+	)
 );
 
 builder.Services.AddSingleton<AiService>();
