@@ -12,11 +12,11 @@ public class AzureSqlDatabaseService(AppDbContext db)
 	) {
 		int hoursAfterFirstLearn = 1*24 - 6;
 		int hoursAfterSecondLearn = 3*24 - 6;
-		int translationsQuantityLimit = 100;
+		int batchMaxSize = 100;
 
 		DateTimeOffset now = DateTimeOffset.Now;
 
-		TranslationDto[] translationDtos = _db.TranslationLearningInfoTable
+		IQueryable<TranslationLearningInfo> translations = _db.TranslationLearningInfoTable
 			.AsNoTracking()
 			.Where(tlInfo => 
 				(tlInfo.FirstLearnAt == null) ||
@@ -26,7 +26,12 @@ public class AzureSqlDatabaseService(AppDbContext db)
 			.Where(tlInfo => tlInfo.User.Email == userEmail)
 			.Where(tlInfo => tlInfo.Translation.Language1Tag == language1Tag)
 			.Where(tlInfo => tlInfo.Translation.Language2Tag == language2Tag)
-			.Take(translationsQuantityLimit)
+			.Take(batchMaxSize);
+
+		int firstTranslationId = (await translations.FirstAsync()).TranslationId;
+
+		var translationDtos = translations
+			.Where(tr => Math.Floor((double)tr.TranslationId / batchMaxSize) == Math.Floor((double)firstTranslationId / batchMaxSize))
 			.OrderBy(tlInfo => tlInfo.LastViewAt)
 			.Select(tlInfo => new TranslationDto {
 				TranslationId = tlInfo.TranslationId,
@@ -38,12 +43,9 @@ public class AzureSqlDatabaseService(AppDbContext db)
 				TermTranslationAudio = tlInfo.Translation.TermTranslationAudio,
 				IsTranslationFlagged = tlInfo.Translation.IsFlagged,
 				IsTranslationSkipped = tlInfo.Translation.IsSkipped,
-			})
-			.ToArray();
+			});
 
-		TranslationDto translationDto = translationDtos.First();
-
-		return translationDto;
+		return translationDtos.First();
 	}
 
 
@@ -53,6 +55,7 @@ public class AzureSqlDatabaseService(AppDbContext db)
 		DateTimeOffset now = DateTimeOffset.Now;
 
 		TranslationLearningInfo translationLearningInfo = await _db.TranslationLearningInfoTable
+			.Include(tlInfo => tlInfo.Translation)
 			.Where(tlInfo => tlInfo.Id == translationUpdate.TranslationLearningInfoId)
 			.Where(tlInfo => tlInfo.Translation.Id == translationUpdate.TranslationId)
 			.FirstAsync();
