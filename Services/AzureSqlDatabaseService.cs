@@ -26,12 +26,18 @@ public class AzureSqlDatabaseService(AppDbContext db)
 			.Where(tlInfo => tlInfo.User.Email == userEmail)
 			.Where(tlInfo => tlInfo.Translation.Language1Tag == language1Tag)
 			.Where(tlInfo => tlInfo.Translation.Language2Tag == language2Tag)
+			.Where(tlInfo => !tlInfo.Translation.IsSkipped)
+			.OrderBy(tlInfo => tlInfo.Translation.FrequencyIndex)
 			.Take(batchMaxSize);
 
-		int firstTranslationId = (await translations.FirstAsync()).TranslationId;
+		int firstTranslationIndex = translations
+			.Include(tlInfo => tlInfo.Translation)
+			.First()
+			.Translation.FrequencyIndex!
+			.Value;
 
 		var translationDtos = translations
-			.Where(tr => Math.Floor((double)tr.TranslationId / batchMaxSize) == Math.Floor((double)firstTranslationId / batchMaxSize))
+			.Where(tlInfo => Math.Floor((double)tlInfo.Translation.FrequencyIndex! / batchMaxSize) == Math.Floor((double)firstTranslationIndex / batchMaxSize))
 			.OrderBy(tlInfo => tlInfo.LastViewAt)
 			.Select(tlInfo => new TranslationDto {
 				TranslationId = tlInfo.TranslationId,
