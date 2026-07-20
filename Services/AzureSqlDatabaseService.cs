@@ -36,9 +36,10 @@ public class AzureSqlDatabaseService(AppDbContext db)
 			.Translation.FrequencyIndex!
 			.Value;
 
-		var translationDtos = translations
+		IQueryable<TranslationDto> translationDtos = translations
 			.Where(tlInfo => Math.Floor((double)tlInfo.Translation.FrequencyIndex! / batchMaxSize) == Math.Floor((double)firstTranslationIndex / batchMaxSize))
-			.OrderBy(tlInfo => tlInfo.LastViewAt)
+			.OrderBy(tlInfo => tlInfo.Translation.FrequencyIndex)
+			.ThenBy(tlInfo => tlInfo.LastViewAt)
 			.Select(tlInfo => new TranslationDto {
 				TranslationId = tlInfo.TranslationId,
 				TranslationLearningInfoId = tlInfo.Id,
@@ -51,7 +52,7 @@ public class AzureSqlDatabaseService(AppDbContext db)
 				IsTranslationSkipped = tlInfo.Translation.IsSkipped,
 			});
 
-		return translationDtos.First();
+		return await translationDtos.FirstAsync();
 	}
 
 
