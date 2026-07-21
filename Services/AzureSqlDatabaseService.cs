@@ -38,8 +38,8 @@ public class AzureSqlDatabaseService(AppDbContext db)
 
 		IQueryable<TranslationDto> translationDtos = translations
 			.Where(tlInfo => Math.Floor((double)tlInfo.Translation.FrequencyIndex! / batchMaxSize) == Math.Floor((double)firstTranslationIndex / batchMaxSize))
-			.OrderBy(tlInfo => tlInfo.Translation.FrequencyIndex)
-			.ThenBy(tlInfo => tlInfo.LastViewAt)
+			.OrderBy(tlInfo => tlInfo.LastViewAt)
+			.ThenBy(tlInfo => tlInfo.Translation.FrequencyIndex)
 			.Select(tlInfo => new TranslationDto {
 				TranslationId = tlInfo.TranslationId,
 				TranslationLearningInfoId = tlInfo.Id,
