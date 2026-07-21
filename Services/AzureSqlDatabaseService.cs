@@ -10,8 +10,8 @@ public class AzureSqlDatabaseService(AppDbContext db)
 		string language1Tag,
 		string language2Tag
 	) {
-		int hoursAfterFirstLearn = 1*24 - 6;
-		int hoursAfterSecondLearn = 3*24 - 6;
+		int hoursAfterFirstLearn = 3*24 - 6;
+		int hoursAfterSecondLearn = 7*24 - 6;
 		int batchMaxSize = 100;
 
 		DateTimeOffset now = DateTimeOffset.Now;
@@ -19,9 +19,9 @@ public class AzureSqlDatabaseService(AppDbContext db)
 		IQueryable<TranslationLearningInfo> translations = _db.TranslationLearningInfoTable
 			.AsNoTracking()
 			.Where(tlInfo => 
-				(tlInfo.FirstLearnAt == null) ||
-				(tlInfo.SecondLearnAt == null && tlInfo.FirstLearnAt != null && tlInfo.FirstLearnAt.Value.AddHours(hoursAfterFirstLearn) <= now) ||
-				(tlInfo.ThirdLearnAt == null && tlInfo.SecondLearnAt != null && tlInfo.SecondLearnAt.Value.AddHours(hoursAfterSecondLearn) <= now)
+				(tlInfo.FirstLearnAt == null)
+				|| (tlInfo.SecondLearnAt == null && tlInfo.FirstLearnAt != null && tlInfo.FirstLearnAt.Value.AddHours(hoursAfterFirstLearn) <= now)
+				|| (tlInfo.ThirdLearnAt == null && tlInfo.SecondLearnAt != null && tlInfo.SecondLearnAt.Value.AddHours(hoursAfterSecondLearn) <= now)
 			)
 			.Where(tlInfo => tlInfo.User.Email == userEmail)
 			.Where(tlInfo => tlInfo.Translation.Language1Tag == language1Tag)
