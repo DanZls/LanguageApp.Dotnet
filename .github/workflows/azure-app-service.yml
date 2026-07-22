@@ -34,8 +34,8 @@ jobs:
         with:
           name: dotnet-app
           path: | 
-						./publish
-						!./publish/Resources/**
+            ./publish
+            !./publish/Resources/**
 
   deploy:
     runs-on: ubuntu-latest
