@@ -8,6 +8,7 @@ Process files [1-9] in [Resources/Processed/DictionaryRuBgPages]:
 - if a word has several translations, pick only one of them, the most used (and relevant to the meaning)
 - the tags must be related to the translation ([german]) word
 - separate tags with ";" only, do not add extra symbols such as "+", "()"
+- check an example in the target directory (if present)
 - process files one by one, do not start reading the next file until the work with the previous is completed
 
 
