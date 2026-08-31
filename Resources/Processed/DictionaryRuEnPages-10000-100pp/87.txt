@@ -25,7 +25,7 @@
 8625|тащиться|to trudge|verb; imperfective; reflexive
 8626|проезжий|passable|adjective
 8627|географический|geographic|adjective
-8628|ба|oh|miscellaneous
+8628|ба|oh|interjection
 8629|неловкий|clumsy|adjective
 8630|комбинация|combination|noun; singular
 8631|качнуть|to sway|verb; perfective

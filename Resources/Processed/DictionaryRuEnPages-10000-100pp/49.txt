@@ -5,7 +5,7 @@
 4805|паровоз|steam engine|noun; singular
 4806|интернет|internet|noun; singular; uncountable
 4807|посетить|to visit|verb; perfective
-4808|британский|british|adjective
+4808|британский|British|adjective
 4809|будить|to wake|verb; regular
 4810|приказывать|to command|verb; regular
 4811|алкоголь|alcohol|noun; singular; uncountable
@@ -61,7 +61,7 @@
 4861|вполголоса|in a low voice|adverb
 4862|изделие|product|noun; singular
 4863|студия|studio|noun; singular
-4864|ленинский|leninist|adjective
+4864|ленинский|Leninist|adjective
 4865|видение|vision|noun; singular
 4866|слюна|saliva|noun; singular; uncountable
 4867|попрощаться|to say goodbye|verb; perfective; reflexive

@@ -49,7 +49,7 @@
 5749|задница|buttocks|noun; singular
 5750|путать|to confuse|verb; imperfective
 5751|новогодний|New Year's|adjective
-5752|нежели|than|miscellaneous
+5752|нежели|than|conjunction
 5753|забава|amusement|noun; singular
 5754|лодочник|boatman|noun; singular
 5755|совать|to shove|verb; imperfective

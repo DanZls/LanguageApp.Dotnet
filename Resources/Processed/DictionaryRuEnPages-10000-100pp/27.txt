@@ -1,6 +1,6 @@
 2601|агент|agent|noun; singular
 2602|супруг|spouse|noun; singular
-2603|январь|january|noun; singular
+2603|январь|January|noun; singular
 2604|соль|salt|noun; singular; uncountable
 2605|роза|rose|noun; singular
 2606|развести|to divorce|verb; perfective
@@ -28,10 +28,10 @@
 2628|успевать|to keep up|verb; regular
 2629|пережить|to survive|verb; perfective
 2630|контора|office|noun; singular
-2631|русски|in russian|adverb
+2631|русски|in Russian|adverb
 2632|возражать|to object|verb; regular
 2633|суп|soup|noun; singular; uncountable
-2634|европейский|european|adjective
+2634|европейский|European|adjective
 2635|палата|ward|noun; singular
 2636|сплошной|continuous|adjective
 2637|мода|fashion|noun; singular; uncountable
@@ -40,7 +40,7 @@
 2640|старичок|old man|noun; singular
 2641|потянуть|to pull|verb; perfective
 2642|сорвать|to tear off|verb; perfective
-2643|июнь|june|noun; singular
+2643|июнь|June|noun; singular
 2644|порт|port|noun; singular
 2645|комплекс|complex|noun; singular
 2646|спортивный|sports|adjective

@@ -21,7 +21,7 @@
 4321|скатерть|tablecloth|noun; singular
 4322|негодяй|scoundrel|noun; singular
 4323|убегать|to run away|verb; regular
-4324|украинский|ukrainian|adjective
+4324|украинский|Ukrainian|adjective
 4325|кампания|campaign|noun; singular
 4326|графа|column|noun; singular
 4327|армейский|army|adjective
@@ -48,7 +48,7 @@
 4348|местность|area|noun; singular
 4349|драгоценный|precious|adjective
 4350|нарастать|to grow|verb; regular
-4351|чеченский|chechen|adjective
+4351|чеченский|Chechen|adjective
 4352|изнутри|from inside|preposition
 4353|оборвать|to cut off|verb; perfective
 4354|провал|failure|noun; singular
@@ -92,7 +92,7 @@
 4392|дружно|together|adverb
 4393|разводить|to lead away|verb; regular
 4394|уютный|cozy|adjective
-4395|японец|japanese person|noun; singular
+4395|японец|Japanese person|noun; singular
 4396|повторяться|to repeat oneself|verb; regular; reflexive
 4397|мелодия|melody|noun; singular
 4398|вал|rampart|noun; singular

@@ -7,7 +7,7 @@
 8207|щетка|brush|noun; singular
 8208|нефтяной|oil|adjective
 8209|наилучший|best|adjective; superlative
-8210|фсб|FSB|noun; singular; abbreviation
+8210|ФСБ|FSB|noun; singular; abbreviation
 8211|уголовник|criminal|noun; singular
 8212|радужный|iridescent|adjective
 8213|забивать|to hammer in|verb; imperfective
@@ -68,7 +68,7 @@
 8268|худощавый|lean|adjective
 8269|умница|smart person|noun; singular
 8270|певица|singer|noun; singular
-8271|оон|UN|noun; singular; proper; abbreviation
+8271|ООН|UN|noun; singular; proper; abbreviation
 8272|скидка|discount|noun; singular
 8273|параметр|parameter|noun; singular
 8274|коттедж|cottage|noun; singular

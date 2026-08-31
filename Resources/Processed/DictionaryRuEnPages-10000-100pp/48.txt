@@ -6,7 +6,7 @@
 4706|роща|grove|noun; singular
 4707|нагнуться|to bend down|verb; perfective; reflexive
 4708|предназначить|to intend|verb; perfective
-4709|грек|greek|noun; singular
+4709|грек|Greek|noun; singular
 4710|усмешка|smirk|noun; singular
 4711|дружить|to be friends|verb; regular
 4712|уникальный|unique|adjective

@@ -48,7 +48,7 @@
 2148|путем|properly|adverb
 2149|повесить|to hang|verb; perfective
 2150|ужин|dinner|noun; singular
-2151|март|march|noun; singular
+2151|март|March|noun; singular
 2152|оглядываться|to look around|verb; regular; reflexive
 2153|сигнал|signal|noun; singular
 2154|больной|patient|noun; singular

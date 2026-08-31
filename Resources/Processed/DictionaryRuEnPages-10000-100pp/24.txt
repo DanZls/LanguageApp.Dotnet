@@ -67,7 +67,7 @@
 2367|шанс|chance|noun; singular
 2368|конкретный|specific|adjective
 2369|наблюдение|observation|noun; singular
-2370|май|may|noun; singular
+2370|май|May|noun; singular
 2371|усесться|to settle down|verb; perfective; reflexive
 2372|сиять|to shine|verb; regular
 2373|туча|cloud|noun; singular
@@ -78,7 +78,7 @@
 2378|закончиться|to end|verb; perfective; reflexive
 2379|клиент|client|noun; singular
 2380|двигатель|engine|noun; singular
-2381|сентябрь|september|noun; singular
+2381|сентябрь|September|noun; singular
 2382|дежурный|on duty|adjective
 2383|бормотать|to mutter|verb; regular
 2384|завтрак|breakfast|noun; singular

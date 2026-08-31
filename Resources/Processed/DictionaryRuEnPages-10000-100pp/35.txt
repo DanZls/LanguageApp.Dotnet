@@ -36,7 +36,7 @@
 3436|использоваться|to be used|verb; regular; reflexive
 3437|извиняться|to apologize|verb; regular; reflexive
 3438|представиться|to introduce oneself|verb; perfective; reflexive
-3439|англичанин|englishman|noun; singular; irregular plural
+3439|англичанин|Englishman|noun; singular; irregular plural
 3440|уверять|to assure|verb; regular
 3441|наступление|offensive|noun; singular
 3442|объем|volume|noun; singular
@@ -82,7 +82,7 @@
 3482|пройтись|to take a walk|verb; perfective; reflexive
 3483|обидно|it's a shame|adverb
 3484|палочка|small stick|noun; singular
-3485|ленинградский|leningrad|adjective
+3485|ленинградский|Leningrad|adjective
 3486|годиться|to be suitable|verb; regular; reflexive
 3487|мысленно|mentally|adverb
 3488|КГБ|KGB|noun; abbreviation; proper

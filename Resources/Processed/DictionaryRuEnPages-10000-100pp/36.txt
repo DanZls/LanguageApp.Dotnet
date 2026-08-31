@@ -34,7 +34,7 @@
 3534|размышлять|to reflect|verb; regular
 3535|арест|arrest|noun; singular
 3536|катиться|to roll|verb; regular; reflexive
-3537|китаец|chinese person|noun; singular
+3537|китаец|Chinese person|noun; singular
 3538|капитал|capital|noun; singular; uncountable
 3539|космос|space|noun; singular; uncountable
 3540|налево|to the left|adverb
@@ -84,7 +84,7 @@
 3584|набирать|to dial|verb; regular
 3585|разделить|to divide|verb; perfective
 3586|каюта|cabin|noun; singular
-3587|февраль|february|noun; singular
+3587|февраль|February|noun; singular
 3588|происшествие|incident|noun; singular
 3589|исполнять|to perform|verb; regular
 3590|категория|category|noun; singular

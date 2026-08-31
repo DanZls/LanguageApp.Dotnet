@@ -46,8 +46,8 @@
 246|взгляд|glance|noun; singular
 247|ходить|to walk|verb; irregular
 248|зачем|why|adverb; interrogative
-249|советский|soviet|adjective
-250|русский|russian|adjective
+249|советский|Soviet|adjective
+250|русский|Russian|adjective
 251|бывать|to be|verb; irregular
 252|полный|full|adjective
 253|прийти|to come|verb; irregular

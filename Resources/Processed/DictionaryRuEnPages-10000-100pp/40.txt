@@ -12,7 +12,7 @@
 3912|видный|prominent|adjective
 3913|нисколько|not at all|adverb
 3914|землянка|dugout|noun; singular
-3915|француз|frenchman|noun; singular; irregular plural
+3915|француз|Frenchman|noun; singular; irregular plural
 3916|откровенно|frankly|adverb
 3917|донестись|to reach|verb; perfective; reflexive
 3918|нуль|zero|noun; singular
@@ -56,7 +56,7 @@
 3956|молиться|to pray|verb; regular; reflexive
 3957|рюкзак|backpack|noun; singular
 3958|проявляться|to manifest|verb; regular; reflexive
-3959|сталинский|stalinist|adjective
+3959|сталинский|Stalinist|adjective
 3960|покупка|purchase|noun; singular
 3961|осел|donkey|noun; singular
 3962|описывать|to describe|verb; regular
@@ -74,7 +74,7 @@
 3974|скамья|bench|noun; singular
 3975|презрительный|contemptuous|adjective
 3976|буфет|buffet|noun; singular
-3977|итальянский|italian|adjective
+3977|итальянский|Italian|adjective
 3978|бумажный|paper|adjective
 3979|опираться|to lean|verb; regular; reflexive
 3980|серия|series|noun; singular

@@ -19,7 +19,7 @@
 8719|распространять|to spread|verb; imperfective
 8720|выработать|to develop|verb; perfective
 8721|пронести|to carry|verb; perfective
-8722|калашникова|Kalashnikov|adjective
+8722|Калашникова|Kalashnikov|adjective
 8723|кордон|cordon|noun; singular
 8724|лазить|to climb|verb; imperfective
 8725|теленок|calf|noun; singular

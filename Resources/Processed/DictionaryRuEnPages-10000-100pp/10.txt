@@ -1,4 +1,4 @@
-901|американский|american|adjective
+901|американский|American|adjective
 902|дым|smoke|noun; singular; uncountable
 903|гореть|to burn|verb; regular
 904|плакать|to cry|verb; irregular

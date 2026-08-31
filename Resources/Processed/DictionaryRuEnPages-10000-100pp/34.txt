@@ -54,7 +54,7 @@
 3354|спорт|sport|noun; singular; uncountable
 3355|вначале|at first|adverb
 3356|гладкий|smooth|adjective
-3357|июль|july|noun; singular
+3357|июль|July|noun; singular
 3358|шептать|to whisper|verb; irregular
 3359|телеграмма|telegram|noun; singular
 3360|напиток|beverage|noun; singular

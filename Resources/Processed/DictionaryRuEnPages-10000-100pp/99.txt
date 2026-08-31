@@ -79,7 +79,7 @@
 9879|муть|murk|noun; singular; uncountable
 9880|устный|oral|adjective
 9881|ротный|company|adjective
-9882|жид|kike|noun; singular
+9882|жид|kike|noun; singular; offensive; ethnic slur
 9883|выключать|to turn off|verb; imperfective
 9884|мыслящий|thinking|adjective
 9885|вояка|old soldier|noun; singular

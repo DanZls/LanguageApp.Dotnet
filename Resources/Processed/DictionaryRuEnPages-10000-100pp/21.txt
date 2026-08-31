@@ -7,7 +7,7 @@
 2007|боже|god|interjection
 2008|молодость|youth|noun; singular; uncountable
 2009|отдыхать|to rest|verb; regular
-2010|октябрь|october|noun; singular
+2010|октябрь|October|noun; singular
 2011|широко|widely|adverb
 2012|храм|temple|noun; singular
 2013|третий|third|numeral; ordinal

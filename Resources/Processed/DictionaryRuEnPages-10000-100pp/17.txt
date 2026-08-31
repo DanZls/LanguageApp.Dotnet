@@ -30,7 +30,7 @@
 1630|спустя|after|preposition
 1631|отчего|why|adverb
 1632|изба|hut|noun; singular
-1633|русский|russian|adjective
+1633|русский|Russian|adjective
 1634|редко|rarely|adverb
 1635|вершина|peak|noun; singular
 1636|тайный|secret|adjective

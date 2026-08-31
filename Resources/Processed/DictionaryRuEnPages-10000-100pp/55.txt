@@ -2,7 +2,7 @@
 5402|корпорация|corporation|noun; singular
 5403|штора|curtain|noun; singular
 5404|въехать|to drive in|verb; perfective
-5405|нападать|to accumulate|verb; imperfective
+5405|нападать|to attack|verb; imperfective
 5406|сложно|complicatedly|adverb
 5407|рвота|vomiting|noun; singular; uncountable
 5408|сборник|collection|noun; singular

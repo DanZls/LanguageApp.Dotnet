@@ -1,6 +1,6 @@
 701|остальной|remaining|pronoun
 702|половина|half|noun; singular
-703|московский|moscow|adjective
+703|московский|Moscow|adjective
 704|шесть|six|numeral; cardinal
 705|получиться|to turn out|verb; perfective
 706|качество|quality|noun; singular
@@ -24,7 +24,7 @@
 724|род|kin|noun; singular
 725|исчезнуть|to disappear|verb; perfective
 726|тонкий|thin|adjective
-727|немецкий|german|adjective
+727|немецкий|German|adjective
 728|звук|sound|noun; singular
 729|отдать|to give back|verb; perfective
 730|магазин|store|noun; singular

@@ -60,7 +60,7 @@
 5660|Наполеон|Napoleon|noun; singular; proper
 5661|улечься|to lie down|verb; perfective; reflexive
 5662|вымыть|to wash|verb; perfective
-5663|неужто|really|miscellaneous
+5663|неужто|really|particle; interrogative
 5664|равнина|plain|noun; singular
 5665|поправлять|to correct|verb; imperfective
 5666|ученый|learned|adjective

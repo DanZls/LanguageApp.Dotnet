@@ -88,7 +88,7 @@
 3188|медный|copper|adjective
 3189|наверху|above|adverb
 3190|точность|accuracy|noun; singular; uncountable
-3191|чеченец|chechen|noun; singular
+3191|чеченец|Chechen|noun; singular
 3192|ценный|valuable|adjective
 3193|глупо|foolishly|adverb
 3194|передовой|advanced|adjective

@@ -13,7 +13,7 @@
 1213|устроить|to arrange|verb; perfective
 1214|дышать|to breathe|verb; irregular
 1215|лечь|to lie down|verb; irregular
-1216|сша|USA|noun; abbreviation
+1216|США|USA|noun; abbreviation
 1217|камера|cell|noun; singular
 1218|победа|victory|noun; singular
 1219|ученый|scientist|noun; singular

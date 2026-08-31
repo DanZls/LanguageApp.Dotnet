@@ -79,7 +79,7 @@
 2479|кафе|cafe|noun; singular
 2480|убийца|murderer|noun; singular
 2481|неведомый|unknown|adjective
-2482|японский|japanese|adjective
+2482|японский|Japanese|adjective
 2483|обязанность|duty|noun; singular
 2484|отель|hotel|noun; singular
 2485|обнять|to hug|verb; perfective

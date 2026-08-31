@@ -75,7 +75,7 @@
 4475|фонарик|flashlight|noun; singular
 4476|официально|officially|adverb
 4477|дрянь|junk|noun; singular; uncountable
-4478|понедельник|monday|noun; singular
+4478|понедельник|Monday|noun; singular
 4479|райком|district committee|noun; singular
 4480|мундир|uniform|noun; singular
 4481|пребывать|to be|verb; regular

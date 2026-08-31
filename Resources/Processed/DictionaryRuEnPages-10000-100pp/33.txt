@@ -5,7 +5,7 @@
 3205|ведьма|witch|noun; singular
 3206|подлинный|genuine|adjective
 3207|адвокат|lawyer|noun; singular
-3208|апрель|april|noun; singular
+3208|апрель|April|noun; singular
 3209|бюджет|budget|noun; singular
 3210|боцман|boatswain|noun; singular
 3211|разрушить|to destroy|verb; perfective

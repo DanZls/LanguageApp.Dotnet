@@ -76,13 +76,13 @@
 676|кухня|kitchen|noun; singular
 677|крупный|large|adjective
 678|решение|decision|noun; singular
-679|молодая|bride|noun; singular
+679|молодая|young|adjective; feminine
 680|тридцать|thirty|numeral; cardinal
 681|роман|novel|noun; singular
 682|требовать|to demand|verb; regular
 683|компания|company|noun; singular
 684|частый|frequent|adjective
-685|российский|russian|adjective
+685|российский|Russian|adjective
 686|рабочий|worker|noun; singular
 687|потерять|to lose|verb; perfective
 688|течение|current|noun; singular

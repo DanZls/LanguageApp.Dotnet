@@ -35,7 +35,7 @@
 1935|ненавидеть|to hate|verb; irregular
 1936|заявление|statement|noun; singular
 1937|поражение|defeat|noun; singular
-1938|август|august|noun; singular
+1938|август|August|noun; singular
 1939|привычный|habitual|adjective
 1940|официальный|official|adjective
 1941|передний|front|adjective

@@ -23,7 +23,7 @@
 4123|отвезти|to take|verb; perfective
 4124|корзина|basket|noun; singular
 4125|огурец|cucumber|noun; singular
-4126|корейский|korean|adjective
+4126|корейский|Korean|adjective
 4127|пацан|kid|noun; singular
 4128|обманывать|to deceive|verb; regular
 4129|кузов|body|noun; singular

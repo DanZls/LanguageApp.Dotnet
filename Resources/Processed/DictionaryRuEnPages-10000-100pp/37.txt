@@ -22,7 +22,7 @@
 3622|воспринимать|to perceive|verb; regular
 3623|дока|expert|noun; singular
 3624|избавиться|to get rid of|verb; perfective; reflexive
-3625|германский|germanic|adjective
+3625|германский|Germanic|adjective
 3626|унести|to carry away|verb; perfective
 3627|зажечь|to light|verb; perfective
 3628|квадратный|square|adjective

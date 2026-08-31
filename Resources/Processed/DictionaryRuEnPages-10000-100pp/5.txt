@@ -57,7 +57,7 @@
 457|век|century|noun; singular
 458|карман|pocket|noun; singular
 459|ехать|to go|verb; irregular
-460|немец|german|noun; singular
+460|немец|German|noun; singular
 461|наверное|probably|adverb
 462|губа|lip|noun; singular
 463|дядя|uncle|noun; singular

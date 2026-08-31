@@ -87,7 +87,7 @@
 1487|древний|ancient|adjective
 1488|опасность|danger|noun; singular
 1489|повезти|to give a ride|verb; perfective
-1490|французский|french|adjective
+1490|французский|French|adjective
 1491|поглядеть|to look|verb; perfective
 1492|горе|grief|noun; singular; uncountable
 1493|честной|honorable|adjective

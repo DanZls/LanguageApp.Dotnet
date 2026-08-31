@@ -27,7 +27,7 @@
 2227|раненый|wounded|adjective
 2228|депутат|deputy|noun; singular
 2229|захотеться|to feel like|verb; perfective; reflexive; impersonal
-2230|американец|american|noun; singular
+2230|американец|American|noun; singular
 2231|производить|to produce|verb; regular
 2232|нигде|nowhere|adverb
 2233|знакомство|acquaintance|noun; singular
@@ -61,7 +61,7 @@
 2261|исключительно|exclusively|adverb
 2262|мягко|softly|adverb
 2263|горизонт|horizon|noun; singular
-2264|китайский|chinese|adjective
+2264|китайский|Chinese|adjective
 2265|ползти|to crawl|verb; irregular
 2266|выбраться|to get out|verb; perfective; reflexive
 2267|мрачный|gloomy|adjective
@@ -78,7 +78,7 @@
 2278|передача|transmission|noun; singular
 2279|редакция|editorial office|noun; singular
 2280|опуститься|to lower oneself|verb; perfective; reflexive
-2281|декабрь|december|noun; singular
+2281|декабрь|December|noun; singular
 2282|публика|audience|noun; singular; uncountable
 2283|колхоз|kolkhoz|noun; singular
 2284|свадьба|wedding|noun; singular
@@ -86,13 +86,13 @@
 2286|городок|small town|noun; singular
 2287|немало|quite a lot|adverb
 2288|бандит|bandit|noun; singular
-2289|москвич|muscovite|noun; singular
+2289|москвич|Muscovite|noun; singular
 2290|лаборатория|laboratory|noun; singular
 2291|прекратить|to stop|verb; perfective
 2292|согласно|in accordance|adverb
 2293|справиться|to cope|verb; perfective; reflexive
 2294|молодежь|youth|noun; singular; uncountable
-2295|ноябрь|november|noun; singular
+2295|ноябрь|November|noun; singular
 2296|строительство|construction|noun; singular; uncountable
 2297|прислушиваться|to listen closely|verb; regular; reflexive
 2298|пакет|package|noun; singular

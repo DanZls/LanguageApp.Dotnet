@@ -42,7 +42,7 @@
 4642|насмешливо|mockingly|adverb
 4643|публикация|publication|noun; singular
 4644|демонстрировать|to demonstrate|verb; regular
-4645|римский|roman|adjective
+4645|римский|Roman|adjective
 4646|оправдать|to justify|verb; perfective
 4647|расследование|investigation|noun; singular
 4648|оборудование|equipment|noun; singular; uncountable

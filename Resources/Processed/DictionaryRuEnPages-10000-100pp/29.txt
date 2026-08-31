@@ -53,7 +53,7 @@
 2853|развернуть|to unfold|verb; perfective
 2854|дневник|diary|noun; singular
 2855|музыкальный|musical|adjective
-2856|суббота|saturday|noun; singular
+2856|суббота|Saturday|noun; singular
 2857|повышение|increase|noun; singular
 2858|гимнастерка|tunic|noun; singular
 2859|грозить|to threaten|verb; regular
@@ -65,7 +65,7 @@
 2865|восьмой|eighth|numeral; ordinal
 2866|убежать|to run away|verb; perfective
 2867|культурный|cultural|adjective
-2868|воскресенье|sunday|noun; singular
+2868|воскресенье|Sunday|noun; singular
 2869|собачий|canine|adjective
 2870|сохраниться|to be preserved|verb; perfective; reflexive
 2871|помешать|to interfere|verb; perfective
