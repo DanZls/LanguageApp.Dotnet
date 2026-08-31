@@ -2,7 +2,7 @@
 5102|наслаждаться|Получать удовольствие, испытывать наслаждение|genießen|verb; imperfective; infinitive
 5103|припомнить|Восстановить в памяти, вспомнить|sich erinnern|verb; perfective; infinitive; reflexive
 5104|первобытный|Относящийся к древнейшим эпохам истории человечества|urgeschichtlich|adjective
-5105|федеральный|Относящийся к федерации или её органам|föderал|adjective
+5105|федеральный|Относящийся к федерации или её органам|föderal|adjective
 5106|уста|Рот, губы (устар.)|Mund|noun; masculine
 5107|овца|Домашнее жвачное животное с густой шерстью|Schaf|noun; neuter
 5108|папаша|Отец (разг.)|Vater|noun; masculine

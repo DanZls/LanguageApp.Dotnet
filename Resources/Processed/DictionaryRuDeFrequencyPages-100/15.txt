@@ -94,7 +94,7 @@
 1494|способность|Природная одарённость; умение|Fähigkeit|noun; feminine
 1495|повернуть|Изменить направление; обратить в другую сторону|wenden|verb; perfective; infinitive
 1496|остальное|То, что осталось; прочее|das Übrige|noun; neuter
-1497|добраться|С усилиями достичь цели или места|gelangen|verb; perfective; infinitive; reflexive
+1497|добраться|С усилиями достичь цели или места|gelangen|verb; perfective; infinitive
 1498|серьёзно|Серьёзным образом; не легкомысленно|ernsthaft|adverb
 1499|признать|Согласиться считать законным или существующим|anerkennen|verb; perfective; infinitive
 1500|поступить|Совершить поступок; действовать определённым образом|handeln|verb; perfective; infinitive

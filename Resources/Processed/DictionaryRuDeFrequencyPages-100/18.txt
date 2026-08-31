@@ -22,7 +22,7 @@
 1722|двенадцать|Число и количество 12|zwölf|numeral; cardinal
 1723|задуматься|Погрузиться в размышления|nachdenken|verb; perfective; infinitive; reflexive
 1724|решать|Принимать решение; выбирать способ действия|entscheiden|verb; imperfective; infinitive
-1725|особенный|Не такой, как все; необычный|besonders|adjective
+1725|особенный|Не такой, как все; необычный|besonders|adverb
 1726|подарить|Преподнести что-либо даром|schenken|verb; perfective; infinitive
 1727|измениться|Стать иным; претерпеть изменения|sich verändern|verb; perfective; infinitive; reflexive
 1728|платок|Кусок ткани квадратной формы для головы или рук|Tuch|noun; neuter

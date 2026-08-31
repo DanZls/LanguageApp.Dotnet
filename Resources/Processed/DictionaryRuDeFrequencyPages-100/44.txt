@@ -65,7 +65,7 @@
 4365|стоп|Призыв остановиться|Stop|interjection
 4366|дровосек|Тот, кто рубит лес, лесоруб|Holzfäller|noun; masculine
 4367|упорно|Настойчиво, не сдаваясь|hartnäckig|adverb
-4368|пробежать|Бегом преодолеть расстояние или пройти мимо|vorbeílaufen|verb; perfective; infinitive
+4368|пробежать|Бегом преодолеть расстояние или пройти мимо|vorbeilaufen|verb; perfective; infinitive
 4369|снисходительный|Не строгий, терпимый к недостаткам|nachsichtig|adjective
 4370|невыносимый|Превышающий пределы терпения|unerträglich|adjective
 4371|удовлетворение|Чувство довольства от исполнения желаний|Befriedigung|noun; feminine

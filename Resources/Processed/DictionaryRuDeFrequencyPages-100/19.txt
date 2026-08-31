@@ -25,7 +25,7 @@
 1825|одинокий|Отделённый от других; без общества|einsam|adjective
 1826|пиджак|Верхняя часть костюма с отложным воротником|Jackett|noun; neuter
 1827|тарелка|Круглая столовая посуда с приподнятыми краями|Teller|noun; masculine
-1828|научиться|Приобрести навык путём обучения|lernen|verb; perfective; infinitive; reflexive
+1828|научиться|Приобрести навык путём обучения|lernen|verb; perfective; infinitive
 1829|пища|То, что едят; питание|Nahrung|noun; feminine
 1830|назначить|Поставить на должность; установить|ernennen|verb; perfective; infinitive
 1831|подруга|Девушка или женщина в дружеских отношениях|Freundin|noun; feminine

@@ -71,7 +71,7 @@
 6871|властный|Имеющий склонность к повелеванию|herrisch|adjective
 6872|выдумка|Изобретательность; придумка|Erfindung|noun; feminine
 6873|нелегкий|Трудный; тяжёлый|schwierig|adjective
-6874|прозвать|Дать прозвище|spitznamen|verb; perfective; infinitive
+6874|прозвать|Дать прозвище|nennen|verb; perfective; infinitive
 6875|сбрасывать|Бросать вниз; удалять|abwerfen|verb; imperfective; infinitive
 6876|накопить|Собрать в запас; накопить|ansammeln|verb; perfective; infinitive
 6877|выговор|Строгое словесное взыскание за проступок|Rüge|noun; feminine

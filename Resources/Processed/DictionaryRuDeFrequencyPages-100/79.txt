@@ -20,7 +20,7 @@
 7820|благополучный|Успешный и удовлетворительный; протекающий без проблем|erfolgreich|adjective
 7821|отказывать|Не давать согласия; лишать чего-либо|verweigern|verb; imperfective; infinitive
 7822|протереть|Очистить поверхность вытиранием|abwischen|verb; perfective; infinitive
-7823|посредине|В середине; в центральном месте|in der Mitte|preposition
+7823|посредине|В середине; в центральном месте|in der Mitte|adverb
 7824|сударь|Вежливое или ироническое обращение к мужчине|mein Herr|noun; masculine
 7825|растянуться|Лечь, вытянув тело; стать длиннее|sich ausstrecken|verb; perfective; infinitive; reflexive
 7826|сползать|Скользить вниз по наклонной поверхности|herunterrutschen|verb; imperfective; infinitive

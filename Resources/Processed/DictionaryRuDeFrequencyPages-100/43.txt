@@ -76,7 +76,7 @@
 4276|постоять|Стоять некоторое время|eine Weile stehen|verb; perfective; infinitive
 4277|вправду|В самом деле, действительно|wirklich|adverb
 4278|мостовый|Относящийся к мосту или мостовой|Pflaster-|adjective
-4279|миллиард|Тысяча миллионов|Milliarde|numeral; cardinal
+4279|миллиард|Тысяча миллионов|Milliarde|noun; feminine
 4280|влево|В левую сторону|nach links|adverb
 4281|взлететь|Подняться в воздух|aufsteigen|verb; perfective; infinitive
 4282|испуг|Внезапный страх|Schreck|noun; masculine

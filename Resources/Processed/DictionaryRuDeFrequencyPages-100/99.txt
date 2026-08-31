@@ -88,7 +88,7 @@
 9888|полицейский|Служащий полиции|Polizist|noun; masculine
 9889|стерва|Грубо: злая и подлая женщина|Hexe|noun; feminine
 9890|сотрудничать|Работать совместно; участвовать в общем деле|zusammenarbeiten|verb; imperfective; infinitive
-9891|реактивный|Относящийся к реактивному движению|Reaktions-|adjective
+9891|реактивный|Относящийся к реактивному движению|Düsen-|adjective
 9892|придвинуть|Двигая, приблизить к чему-либо|heranschieben|verb; perfective; infinitive
 9893|спонсор|Лицо или организация, финансирующие мероприятие|Sponsor|noun; masculine
 9894|крупица|Небольшое количество чего-либо|Krümchen|noun; neuter; diminutive

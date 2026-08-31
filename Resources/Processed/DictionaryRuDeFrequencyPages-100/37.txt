@@ -4,7 +4,7 @@
 3604|фабрика|Промышленное предприятие|Fabrik|noun; feminine
 3605|делиться|Распадаться на части; делить с другими|sich aufteilen|verb; imperfective; infinitive; reflexive
 3606|показание|Свидетельство; рассказ о чём-либо|Aussage|noun; feminine
-3607|выносить|Прийти к выводу; принять решение|schlussfolgern|verb; perfective; infinitive
+3607|выносить|Прийти к выводу; принять решение|schlussfolgern|verb; imperfective; infinitive
 3608|небрежно|Без старания; неряшливо|nachlässig|adverb
 3609|безусловно|Без всяких условий; непременно|unbedingt|adverb
 3610|пустяк|Мелкое, ничтожное обстоятельство|Kleinigkeit|noun; feminine

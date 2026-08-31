@@ -9,7 +9,7 @@
 9109|экскурсовод|Специалист, проводящий экскурсии|Reiseführer|noun; masculine
 9110|комплимент|Лестное высказывание; похвала|Kompliment|noun; neuter
 9111|клубиться|Подниматься клубами; виться|sich ballen|verb; imperfective; infinitive; reflexive
-9112|пищевой|Относящийся к питанию и пище|Lebens­mittel-|adjective
+9112|пищевой|Относящийся к питанию и пище|Lebensmittel-|adjective
 9113|отзыв|Мнение или оценка кого-либо|Rezension|noun; feminine
 9114|цинковый|Изготовленный из цинка|Zink-|adjective
 9115|откровенность|Искренность; откровенное признание|Offenheit|noun; feminine

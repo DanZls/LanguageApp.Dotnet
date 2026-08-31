@@ -67,7 +67,7 @@
 5867|влететь|Залететь внутрь; стремительно войти|hineinfliegen|verb; perfective; infinitive
 5868|беззвучно|Не издавая звука|lautlos|adverb
 5869|энергетический|Относящийся к энергетике|Energie-|adjective
-5870|гранат|Плод граnatового дерева|Granatapfel|noun; masculine
+5870|гранат|Плод гранатового дерева|Granatapfel|noun; masculine
 5871|немолодой|Уже не молодой; средних лет|nicht mehr jung|adjective
 5872|заливать|Покрывать жидкостью|übergießen|verb; imperfective; infinitive
 5873|понемногу|Небольшими порциями; постепенно|nach und nach|adverb

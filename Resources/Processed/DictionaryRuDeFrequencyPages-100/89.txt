@@ -1,5 +1,5 @@
 8801|нагреть|Сделать тёплым или горячим|erhitzen|verb; perfective; infinitive
-8802|общественно|Относящийся к общественной жизни|gesellschaftlich|adjective
+8802|общественно|Относящийся к общественной жизни|gesellschaftlich|adverb
 8803|купля|Покупка, приобретение|Kauf|noun; masculine
 8804|впустить|Дать доступ, пустить внутрь|einlassen|verb; perfective; infinitive
 8805|подрагивать|Слегка дрожать время от времени|zittern|verb; imperfective; infinitive

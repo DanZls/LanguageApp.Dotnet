@@ -14,11 +14,11 @@
 8914|устранить|Убрать, ликвидировать|beseitigen|verb; perfective; infinitive
 8915|захлопать|Начать аплодировать, захлопать|anfangen zu klatschen|verb; perfective; infinitive
 8916|увлекательный|Способный захватить интерес, занимательный|fesselnd|adjective
-8917|люкс|Номер или купе высшего класса|Luxus-|noun; masculine
+8917|люкс|Номер или купе высшего класса|Luxus|noun; masculine
 8918|отдаваться|Целиком посвятить себя чему-либо|sich hingeben|verb; imperfective; infinitive; reflexive
 8919|хабар|Взятка, незаконное вознаграждение|Bestechung|noun; feminine
 8920|Белоруссия|Государство в Восточной Европе|Weißrussland|noun; neuter; proper
-8921|попутный|Движущийся в том же направлении|Gegenwind-|adjective
+8921|попутный|Движущийся в том же направлении|Rückenwind-|adjective
 8922|выручать|Помогать кому-либо в затруднении|heraushelfen|verb; imperfective; infinitive
 8923|запрещаться|Быть под запретом|verboten sein|verb; passive; imperfective
 8924|му|Мычание коровы (межд.)|muh|interjection

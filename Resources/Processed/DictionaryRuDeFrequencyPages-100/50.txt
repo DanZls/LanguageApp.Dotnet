@@ -86,10 +86,10 @@
 4986|торговец|Человек, занимающийся торговлей|Händler|noun; masculine
 4987|эфир|Воздушное пространство для радиоволн; также химическое соединение|Äther|noun; masculine
 4988|шевелить|Трогать, слегка двигать|bewegen|verb; imperfective; infinitive
-4989|присутствующий|Находящийся в данном месте|Anwesende|adjective
+4989|присутствующий|Находящийся в данном месте|Anwesende|noun; masculine
 4990|связаться|Установить контакт с кем-либо|sich in Verbindung setzen|verb; perfective; infinitive; reflexive
 4991|завязать|Закрепить узлом или бантом|zubinden|verb; perfective; infinitive
-4992|приезжий|Приехавший из другого места|Zugereiste|adjective
+4992|приезжий|Приехавший из другого места|Zugereiste|noun; masculine
 4993|строитель|Специалист по строительным работам|Bauarbeiter|noun; masculine
 4994|разложить|Разместить по местам в определённом порядке|ausbreiten|verb; perfective; infinitive
 4995|знакомый|Человек, с которым поддерживается знакомство|Bekannte|noun; masculine

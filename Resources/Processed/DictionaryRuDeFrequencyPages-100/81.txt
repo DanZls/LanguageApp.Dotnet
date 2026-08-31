@@ -50,7 +50,7 @@
 8050|хихикать|Смеяться тихо или исподтишка|kichern|verb; imperfective; infinitive
 8051|дуэль|Поединок между двумя лицами|Duell|noun; neuter
 8052|добром|По доброй воле, без принуждения|freiwillig|adverb
-8053|подпольный|Нелегальный, конспиративный|unterirdisch|adjective
+8053|подпольный|Нелегальный, конспиративный|illegal|adjective
 8054|укрытие|Место или сооружение, защищающее от чего-либо|Unterstand|noun; masculine
 8055|ураган|Ветер разрушительной силы|Orkan|noun; masculine
 8056|причинить|Стать причиной чего-либо неприятного|verursachen|verb; perfective; infinitive

@@ -25,7 +25,7 @@
 8625|тащиться|Идти медленно, с трудом|sich schleppen|verb; imperfective; infinitive; reflexive
 8626|проезжий|Пригодный для езды|befahrbar|adjective
 8627|географический|Относящийся к географии|geografisch|adjective
-8628|ба|Восклицание, выражающее удивление|ha|miscellaneous
+8628|ба|Восклицание, выражающее удивление|ha|interjection
 8629|неловкий|Лишённый ловкости, неуклюжий|ungeschickt|adjective
 8630|комбинация|Сочетание, взаимное расположение элементов|Kombination|noun; feminine
 8631|качнуть|Резко двинуть в одну сторону, качнуть|anstoßen|verb; perfective; infinitive

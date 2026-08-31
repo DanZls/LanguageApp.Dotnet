@@ -60,7 +60,7 @@
 5660|Наполеон|Имя собственное: французский полководец и emperor|Napoleon|noun; masculine; proper
 5661|улечься|Принять удобное лежачее положение|sich hinlegen|verb; perfective; infinitive; reflexive
 5662|вымыть|Очистить водой с мылом|abwaschen|verb; perfective; infinitive
-5663|неужто|Выражение недоверия или удивления (разг.)|wirklich|miscellaneous
+5663|неужто|Выражение недоверия или удивления (разг.)|wirklich|particle
 5664|равнина|Ровная земная поверхность без возвышенностей|Ebene|noun; feminine
 5665|поправлять|Исправлять; делать лучше|verbessern|verb; imperfective; infinitive
 5666|ученый|Много знающий; занимающийся научной деятельностью|Wissenschaftler|noun; masculine

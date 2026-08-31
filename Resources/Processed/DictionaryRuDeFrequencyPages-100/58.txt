@@ -49,7 +49,7 @@
 5749|задница|Ягодицы (разг.)|Hintern|noun; masculine
 5750|путать|Вносить беспорядок; смешивать|verwirren|verb; imperfective; infinitive
 5751|новогодний|Относящийся к Новому году|Neujahrs-|adjective
-5752|нежели|Сравнительный союз: чем|als|miscellaneous
+5752|нежели|Сравнительный союз: чем|als|conjunction
 5753|забава|Развлечение, игра|Vergnügen|noun; neuter
 5754|лодочник|Лодочный перевозчик или тот, кто управляет лодкой|Bootsmann|noun; masculine
 5755|совать|Вставлять или засовывать во что-либо|stecken|verb; imperfective; infinitive

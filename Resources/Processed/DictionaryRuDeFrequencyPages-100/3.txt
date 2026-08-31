@@ -70,7 +70,7 @@
 270|слушать|Намеренно направлять слух на что-либо|zuhören|verb; imperfective; infinitive
 271|бояться|Испытывать страх или боязнь|sich fürchten|verb; imperfective; infinitive; reflexive
 272|сын|Лицо мужского пола по отношению к своим родителям|Sohn|noun; masculine
-273|нельзя|Нет возможности; запрещено|darf nicht|adverb
+273|нельзя|Нет возможности; запрещено|darf nicht|predicate; impersonal
 274|прямо|Без отклонений; прямолинейно|geradeaus|adverb
 275|долго|В течение длительного времени|lange|adverb
 276|быстро|В короткое время; с высокой скоростью|schnell|adverb

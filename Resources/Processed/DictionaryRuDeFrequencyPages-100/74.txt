@@ -75,7 +75,7 @@
 7375|рыться|Рыть или перебирать вещи в поисках чего-либо|wühlen|verb; imperfective; infinitive
 7376|копаться|Рыть и раскапывать; копошиться|buddeln|verb; imperfective; infinitive
 7377|возрастать|Увеличиваться в количестве или степени|zunehmen|verb; imperfective; infinitive
-7378|экс-|Приставка со значением «прежний», «бывший»|Ex-|noun; prefixal
+7378|экс-|Приставка со значением «прежний», «бывший»|Ex-|prefix
 7379|высказаться|Выразить своё мнение вслух|sich äußern|verb; perfective; infinitive; reflexive
 7380|кожный|Относящийся к коже как органу|Haut-|adjective
 7381|прибывать|Приезжать в место назначения|ankommen|verb; imperfective; infinitive

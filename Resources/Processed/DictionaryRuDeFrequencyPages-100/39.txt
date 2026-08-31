@@ -86,7 +86,7 @@
 3886|боевик|Вооружённый член нелегальной группировки|Kämpfer|noun; masculine
 3887|поди|Ступай; иди (повелительное наклонение)|geh|verb; imperative
 3888|очаг|Устройство для разведения огня|Herd|noun; masculine
-3889|пленный|Захваченный и содержащийся в плену|Gefangene|adjective
+3889|пленный|Захваченный и содержащийся в плену|Gefangene|noun; masculine
 3890|ребятишки|Маленькие дети (ласкат.)|Kinder|noun; plural
 3891|уловить|Воспринять, поймать на слух|auffangen|verb; perfective; infinitive
 3892|проникнуть|Пробраться внутрь, достичь чего-либо|eindringen|verb; perfective; infinitive

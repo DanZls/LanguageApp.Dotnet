@@ -9,7 +9,7 @@
 4009|фокус|Точка пересечения преломлённых или отражённых лучей|Fokus|noun; masculine
 4010|тонна|Единица массы, равная 1000 кг|Tonne|noun; feminine
 4011|материя|Объективная реальность вне сознания; вещество|Materie|noun; feminine
-4012|поперек|В поперечном направлении, по ширине|quer|preposition
+4012|поперек|В поперечном направлении, по ширине|quer|adverb
 4013|мышь|Небольшой грызун с острой мордочкой и длинным хвостом|Maus|noun; feminine
 4014|скрипеть|Издавать скрипящий звук|knarren|verb; imperfective; infinitive
 4015|кушать|Есть, принимать пищу|essen|verb; imperfective; infinitive
@@ -97,4 +97,4 @@
 4097|грубо|Несдержанно, грубо по отношению к кому-либо|grob|adverb
 4098|напиться|Выпить в большом количестве|sich betrinken|verb; perfective; infinitive; reflexive
 4099|лопнуть|Треснуть, разорваться под давлением|platzen|verb; perfective; infinitive
-4100|дерьмо|Кал; груб. о чём-либо плохом|Scheiße|noun; neuter
+4100|дерьмо|Кал; груб. о чём-либо плохом|Scheiße|noun; feminine
