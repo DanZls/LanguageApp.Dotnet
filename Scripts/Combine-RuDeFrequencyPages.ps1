@@ -1,6 +1,7 @@
 param(
     [string]$SourceDir = "Resources/Processed/DictionaryRuDeFrequencyPages-50",
-    [string]$DestinationDir = "Resources/Processed/DictionaryRuDeFrequencyPages-100"
+    [string]$DestinationDir = "Resources/Processed/DictionaryRuDeFrequencyPages-100",
+    [int]$FileLimit = 0
 )
 
 Set-StrictMode -Version Latest
@@ -19,6 +20,10 @@ $files = Get-ChildItem -Path $sourcePath -File -Filter "*.txt" |
 
 if ($files.Count -eq 0) {
     throw "No numeric .txt files found in '$sourcePath'."
+}
+
+if ($FileLimit -gt 0) {
+    $files = $files | Select-Object -First $FileLimit
 }
 
 if ($files.Count % 2 -ne 0) {
