@@ -13,10 +13,10 @@ jobs:
       contents: read
 
     steps:
-      - uses: actions/checkout
+      - uses: actions/checkout@v5
 
       - name: Set up .NET version
-        uses: actions/setup-dotnet
+        uses: actions/setup-dotnet@v5
         with:
           dotnet-version: '10.0.x'
 
@@ -30,7 +30,7 @@ jobs:
         run: dotnet publish ./LanguageApp.Dotnet.csproj --configuration Release --no-build --output ./publish -r linux-x64 --self-contained false
 
       - name: Upload artifact for deployment jobs
-        uses: actions/upload-artifact
+        uses: actions/upload-artifact@v5
         with:
           name: dotnet-app
           path: | 
@@ -43,17 +43,17 @@ jobs:
 
     steps:
       - name: Download artifact from build job
-        uses: actions/download-artifact
+        uses: actions/download-artifact@v5
         with:
           name: dotnet-app
 
       - name: Login to Azure
-        uses: azure/login
+        uses: azure/login@v2
         with:
           creds: ${{ secrets.LANGUAGE_APP_API_AZURE_CREDENTIALS }}
 
       - name: Deploy to Azure Web App
-        uses: azure/webapps-deploy
+        uses: azure/webapps-deploy@v3
         with:
           app-name: 'language-app-api'
           slot-name: 'Production'
