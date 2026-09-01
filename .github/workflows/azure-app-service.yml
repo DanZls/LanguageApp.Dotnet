@@ -27,7 +27,7 @@ jobs:
         run: dotnet build ./LanguageApp.Dotnet.csproj --configuration Release --no-restore
 
       - name: Publish
-        run: dotnet publish ./LanguageApp.Dotnet.csproj --configuration Release --no-build --output ./publish
+        run: dotnet publish ./LanguageApp.Dotnet.csproj --configuration Release --no-build --output ./publish -r linux-x64 --self-contained false
 
       - name: Upload artifact for deployment jobs
         uses: actions/upload-artifact@v4
